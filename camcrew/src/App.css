@@ -1,6 +1,10 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+img{
+  width:100%;
+  height: 100%;
+}
 /* Used for navbar */
 .Navbar_main {
     box-sizing: border-box;
@@ -16,25 +20,21 @@
     .Navbar_main{
       width: 100rem !important;
     }
-    
   }
+
   .Navbarcon{
     width: 1920px;
-    /* border: red solid 1px; */
-    margin-left: 25% !important;
+    margin-left: 20% !important;
   }
   
   .nav-link {
     color: #666666 !important;
-    font-size: 20px !important;
+    font-size: 1.2vw !important;
     font-weight: 600 !important;
     font-style: normal !important;
     line-height: 24px !important;
     position: relative !important;
     display: flex !important;
-    
-    /* align-items: center !important; */
-    /* right: 55% !important; */
   }
   a:hover {
     color: #666666 !important;
@@ -64,7 +64,7 @@
   }
   .nav-link:active {
     border-bottom: linear-gradient(45deg, #dd1180 20%, #90213b 80%) 2px solid !important;
-    /* border-bottom: #90213B 2px solid !important; */
+    width: 60%;
   }
   
   .navbut{
@@ -78,27 +78,16 @@
     bottom: 98.85%;
   }
   .logocontainer {
-    width: 228.3px;
-    height: 55px;
+    width: 13.4vw;
+    height: 3.3vw;
     position: absolute;
-    left: 60px;
-    top: 20px;
+    left: 5%;
+    top: 15%;
   }
   .logoimage {
     width: 100%;
     height: 100%;
     border-radius: 0%;
-  }
-  .buttonicon {
-    content: "";
-    width: 25px;
-    height: 17px;
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: middle;
-    background-color: transparent;
-    background-position: center center;
-    background-repeat: no-repeat;
   }
   .shared-class{
     color: #5b5b5b !important;
@@ -111,21 +100,22 @@
     gap: 40px;
     margin-left: 2%;
   }
+  /* ........................... */
   /* Used for Home */
   .carouselimg{
     width: 100% !important;
     height: 100vh !important;
   }
   .CarouselCaptioncon1{
-    width: 620px;
-    height: 255px;
+    width: 36.3vw;
+    height: 15vw;
     position: absolute;
     top:25%;
     left: 10% !important;
   }
   .CarouselCaption1,.CarouselCaption2{
     font-weight: 700 !important;
-    font-size: 70px !important;
+    font-size: 4vw !important;
     line-height: 85.33px !important;
     text-align: left;
   }
@@ -136,10 +126,92 @@
     color: #ffffff;
   }
   .CarouselCaptioncon2{
-    width: 570px;
-    height: 255px;
+    width: 33.4vw;
+    height: 15vw;
     position: absolute;
     top:25%;
     left: 10% !important;
   }
+  /* ................... */
+  /* Used for Services */
+  .Service{
+    width:98vw;
+    height: 60vw;
+    /* border: red 1px solid; */
+    margin: 2% auto 2% auto;
+    
+  }
+  .Servicecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 11px;
+    margin-top: 2%;
+    text-align: center;
+  }
+  .Servicetextcon{
+    width: 98vw;
+    height: 4.5vw;
+    /* border:1px solid red; */
+    display: block; 
+  }
+  .Servicetexthead{
+    font-size: 2.3vw;
+    font-weight: 600;
+    line-height: 49px;
+    text-align: center;
+  }
+
+  hr{
+    border: #AD3AA9 2px solid !important;
+    width:5%;
+    opacity: 1 !important;
+    margin: auto !important;
+  }
+
+  .Servicecon1,.Servicecon2,.Servicecon3,.Servicecon4{
+    width:24vw;
+    height: 17.5vw;
+    /* border: 1px red solid; */
+  }
+  .Servicecon2{
+    height: 40.13vw;
+  }
+  .Servicecon{
+    display: flex;
+    flex-direction: row;
+    gap:13px;
+    margin-top: -1%;
+  }
+  .Servicecon5{
+    height: 35.5vw;
+    /* border: 1px red solid; */
+    /* width:460px */
+    width:24vw;
+
+  }
+  .Servicecon6{
+    height: 35.5vw;
+    /* border: 1px red solid; */
+    width:24vw;
+
+  }
+  .Servicesubcontainer{
+    /* border: 1px solid yellow; */
+    height: 11.78vw;
+    display: flex;
+    flex-direction: row;
+    width:24vw;
+  }
+  .Servicesubcon1,.Servicesubcon2{
+    width:12vw;
+    /* border: red 1px solid; */
+  }
+  .Servicesubcontainer1{
+    width:24vw;
+    height: 11.78vw;
+    /* border: red 1px solid; */
+    margin-top: 1%;
+  }
+
   

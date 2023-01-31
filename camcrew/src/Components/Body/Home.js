@@ -2,10 +2,11 @@ import Carousel from 'react-bootstrap/Carousel';
 import img1 from '../../Assets/Carousel1.png';
 import img2 from '../../Assets/Carousel2.png';
 import img3 from '../../Assets/Carousel3.png';
-
+import Services from './Services';
 
 function Home() {
   return (
+    <>
     <Carousel variant="dark">
       <Carousel.Item interval={2000}>
         <img
@@ -38,6 +39,8 @@ function Home() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    <Services/>
+    </>
   );
 }
 
