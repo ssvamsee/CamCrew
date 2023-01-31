@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/CamCrew/static/css/main.cb1e3994.css",
-    "main.js": "/CamCrew/static/js/main.7225344e.js",
+    "main.css": "/CamCrew/static/css/main.dccd0eb0.css",
+    "main.js": "/CamCrew/static/js/main.9978c620.js",
     "static/js/787.2775a639.chunk.js": "/CamCrew/static/js/787.2775a639.chunk.js",
+    "static/media/Carousel1.png": "/CamCrew/static/media/Carousel1.bdfd84c178ccb95e2085.png",
+    "static/media/Carousel3.png": "/CamCrew/static/media/Carousel3.bb90e1da2609e528fdbb.png",
+    "static/media/Carousel2.png": "/CamCrew/static/media/Carousel2.f6286d7ba6b4d187ff8c.png",
+    "static/media/logo.svg": "/CamCrew/static/media/logo.09cc041693d56200c522765a9a927724.svg",
     "index.html": "/CamCrew/index.html",
-    "main.cb1e3994.css.map": "/CamCrew/static/css/main.cb1e3994.css.map",
-    "main.7225344e.js.map": "/CamCrew/static/js/main.7225344e.js.map",
+    "main.dccd0eb0.css.map": "/CamCrew/static/css/main.dccd0eb0.css.map",
+    "main.9978c620.js.map": "/CamCrew/static/js/main.9978c620.js.map",
     "787.2775a639.chunk.js.map": "/CamCrew/static/js/787.2775a639.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb1e3994.css",
-    "static/js/main.7225344e.js"
+    "static/css/main.dccd0eb0.css",
+    "static/js/main.9978c620.js"
   ]
 }

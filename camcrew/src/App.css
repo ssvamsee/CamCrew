@@ -1,5 +1,5 @@
 *{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 /* Used for navbar */
 .Navbar_main {
@@ -27,19 +27,22 @@
   .nav-link {
     color: #666666 !important;
     font-size: 20px !important;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     font-style: normal !important;
     line-height: 24px !important;
     position: relative !important;
     display: flex !important;
-    align-items: center !important;
-    right: 65% !important;
+    
+    /* align-items: center !important; */
+    /* right: 55% !important; */
   }
   a:hover {
     color: #666666 !important;
   }
   a:hover::after {
-    width: 100%;
+    width: 60%;
+    margin-left: 10%;
+    height: 3px;
   }
   .navbar_link:hover::after {
     transform: scaleX(1);
@@ -108,4 +111,35 @@
     gap: 40px;
     margin-left: 2%;
   }
- 
+  /* Used for Home */
+  .carouselimg{
+    width: 100% !important;
+    height: 850px !important;
+  }
+  .CarouselCaptioncon1{
+    width: 620px;
+    height: 255px;
+    position: absolute;
+    top:25%;
+    left: 10% !important;
+  }
+  .CarouselCaption1,.CarouselCaption2{
+    font-weight: 700 !important;
+    font-size: 70px !important;
+    line-height: 85.33px !important;
+    text-align: left;
+  }
+  .carousel-control-prev-icon,.carousel-control-next-icon {
+    background-image: none !important;
+  }
+  .CarouselCaption2{
+    color: #ffffff;
+  }
+  .CarouselCaptioncon2{
+    width: 570px;
+    height: 255px;
+    position: absolute;
+    top:25%;
+    left: 10% !important;
+  }
+  
