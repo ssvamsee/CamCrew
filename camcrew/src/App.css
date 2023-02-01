@@ -1,6 +1,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+
 img{
   width:100%;
   height: 100%;
@@ -8,7 +9,7 @@ img{
 /* Used for navbar */
 .Navbar_main {
     box-sizing: border-box;
-    position: sticky !important;
+    /* position: sticky !important; */
     width: 100%;
     height: 100px;
     top: -1px;
@@ -105,18 +106,28 @@ img{
   .carouselimg{
     width: 100% !important;
     height: 95vh !important;
+    position: relative;
   }
   .CarouselCaptioncon1{
     width: 36.3vw;
     height: 15vw;
-    position: absolute;
+    position: relative;
     top:25%;
     left: 10% !important;
+  }
+  .azadi{
+    width:10.95vw;
+    height: 6.6vw;
+    position: absolute;
+    /* bottom:8.78vw; */
+    bottom:15% ;
+    /* left: 10.54vw; */
+    left: 10%;
   }
   .CarouselCaption1,.CarouselCaption2{
     font-weight: 700 !important;
     font-size: 4vw !important;
-    line-height: 85.33px !important;
+    /* line-height: 85.33px !important; */
     text-align: left;
   }
   .carousel-control-prev-icon,.carousel-control-next-icon {
@@ -173,25 +184,25 @@ img{
   }
   .homenumber{
     font-size: 2.8vw;
-    line-height: 58.5px;
+    /* line-height: 58.5px; */
     font-weight: 600;
     color: #AD3AA9;
   }
   .hometext{
     font-size: 1.18vw;
-    line-height: 24.38px;
+    line-height: 1.4vw;
     font-weight: 500;
     color: #666666;
   }
   .hometext1{
-    font-size: 0.82vw;
-    line-height: 19px;
+    font-size:0.82vw;
+    /* line-height: 19px; */
     font-weight: 400;
     color: #666666;
   }
   .homespan{
     font-size: 1.18vw;
-    line-height: 24.38px;
+    /* line-height: 24.38px; */
     font-weight: 600;
     color: #4D509C;
   }
@@ -221,7 +232,7 @@ img{
   .Servicetexthead{
     font-size: 2.3vw;
     font-weight: 600;
-    line-height: 49px;
+    /* line-height: 49px; */
     text-align: center;
   }
 
@@ -282,7 +293,8 @@ img{
     width: 98.8vw;
     height: 63.26vw;
     /* border:1px solid red; */
-    margin: auto;
+    margin:1% auto auto auto;
+  
   }
   .Aboutcon1{
     height: 35.15vw;
@@ -302,19 +314,19 @@ img{
   }
   .Aboutspan{
     font-size: 0.94vw;
-    line-height: 21.79px;
+    /* line-height: 1.27vw; */
     font-weight: 400;
     color: #666666;
   }
   .aboutspan{
     font-size: 0.94vw;
-    line-height: 21.79px;
+    /* line-height: 1.27vw; */
     font-weight: 600;
     color: #666666;
   }
   .Abouth1{
     font-size: 2.35vw;
-    line-height: 49px;
+    /* line-height: 49px; */
     font-weight: 600;
     color: #000000;
     margin-top: 2%;
@@ -328,20 +340,229 @@ img{
     background-color: white;
     border: 10px solid;
     border-image-slice: 1;
-    border-width: 5px;
+    border-width: 3px;
     border-image-source: linear-gradient(45deg, #964693, #298CDD); 
-    margin-top: 4%; 
+    /* margin-top: 4%;   */
   }
   .Aboutbutton:hover{
     background-image:linear-gradient(45deg, #964693, #298CDD) !important; 
     color: #ffffff;
   }
+  /* .btn {
+    
+    font-weight: 300;
+    border-radius: 2px;
+    background-color: transparent;
+    border: 3px solid #333;
+    padding: 6px 12px;
+    transition: all 0.5s ease;
+    cursor:pointer;
+  }
+  .btn:hover,
+  button:hover {
+    outline: 0;
+    color: #fff;
+  }
+  .btn:active,
+  button:active {
+    outline: 0;
+    color: #fff;
+  }
+  .btn-slide-left {
+    background: linear-gradient(to left, transparent 50%, #333 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+  }
+  .btn-slide-left:hover {
+    background-position: left bottom;
+  } */
+
 .Aboutbuttontext{
   width:9.54vw;
   height: 1.28;
   font-weight: 700;
-  line-height: 22px;
+  /* line-height: 22px; */
   font-size: 1.05vw;
   margin: auto;
+}
+.Aboutcon2{
+  height: 26.36vw;
+  width: 98.8vw;
+  /* border:red 1px solid; */
+  margin:2% auto auto auto;
+  background-color: #333333;
+}
+.Aboutsubcon3{
+  width:32.74vw;
+  height: 5.74vw;
+  /* border: blue 1px solid; */
+  margin: 2% auto 1% auto;
+  text-align: center;
+  padding: 10px;
+}
+.Abouth1-1{
+  font-size: 2.34vw;
+  font-weight: 500;
+  /* line-height: 48.76px; */
+  color: #ffffff;
+}
+.Aboutsubcon4{
+  width:68.71vw;
+  height: 11.71vw;
+  /* border: red 1px solid; */
+  margin: 4% auto auto 10%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.Aboutsubcon4-1{
+  width:18.16vw;
+  height: 11.71vw;
+  /* border: 1px solid green; */
+}
+.Aboutsub4-1-1{
+  width:16.98vw;
+  height: 2.81vw;
+  /* border: red 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  gap:3px
+}
+.Aboutsub4-1-2{
+  width: 2.4vw;
+  height: 2.4vw;
+  /* border: blue 1px solid; */
+  margin: auto;
+}
+.Aboutsub4-1-3{
+  width:13.5vw;
+  height: 2.81vw;
+  /* border: pink 1px solid; */
+  margin: auto;
+}
+.Aboutsub4-1-4{
+  width:12vw;
+  height: 2.81vw;
+  /* border: pink 1px solid; */
+  margin: auto;
+}
+.Aboutsub4-2-1{
+  width:16.98vw;
+  height: 6.44vw;
+  margin: 8% auto auto auto;
+  /* border: green 1px solid; */
+}
+.Aboutsub4p{
+  font-weight: lighter;
+  font-size: 0.82vw;
+  /* line-height: 25px; */
+  color: #FFFFFF;
+  font-style: normal;
+  opacity: 0.8;
+  
+}
+.Aboutsub4h1{
+  font-weight: 400;
+  font-size: 1.17vw;
+  /* line-height: 24px; */
+  font-style: normal;
+  color: #FFFFFF;
+
+}
+.Aboutimageicon{
+  /* border: red 1px solid;  */
+  width: 16.46vw !important;
+  height: 22.49vw;
+  overflow: hidden;
+  margin-top: -5%;
+}
+.aaaaaa{
+  display: flex;
+}
+/* ................. */
+/* Form side button */
+.Formsidebutton{
+  width:2.4vw;
+  height: 22.67vw;
+  border: 1px solid #AD3AA9;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #4D509C;
+  opacity: 0.5;
+  /* position: relative; */
+}
+
+.Formsendbutton{
+  width:9.84vw !important;
+  height:2.34vw !important;
+  border-radius: 0% !important;
+  background: linear-gradient(45deg,  #964693, #298CDD) !important;
+}
+
+.Formsidebutton:hover{
+  opacity: 1;
+}
+.Formsidebutton:hover:after{
+  opacity: 1;
+}
+button:active{
+  opacity: 1;
+}
+.text{
+  transform: rotate(-90deg);
+  font-size: 1.46vw;
+  font-weight: 500;
+  width: 17.57vw;
+  height: 1.75vw;
+  color: #ffffff;
+  z-index: 9;
+  position: absolute;
+  right: -310%;
+}
+.formsidebuttoncon{
+  position: fixed;
+  top:25%;
+  right: 0px;
+  color: #ffff;
+}
+.popover-header, .popover-body{
+  width:32.27vw !important;
+  display: absolute;
+  right: 0;
+  z-index: 9;
+}
+.popover-header{
+  /* background-color: #fff !important; */
+  width: 32vw !important;
+  font-size: 1.05vw !important;
+  font-weight: 800 !important;
+  color: #AD3AA9 !important;
+border-bottom: none !important;
+}
+
+.popover{
+  width:32.27vw !important;
+  height: 38.07vw !important;
+  margin-top: 2% !important;
+  --bs-popover-max-width: 32.27vw !important;
+  --bs-popover-border-width: 2px !important;
+  --bs-popover-border-color:#AD3AA9 !important;
+  --bs-popover-header-font-size:1.05vw !important;
+  --bs-popover-font-size: 1vw !important;
+  background:rgba(255,255,255,0.9) !important ;
+}
+.form{
+  width:43.81vw !important;
+  z-index: 9;
+}
+.form-label{
+  font-size: 0.93vw !important;
+  font-weight: 600 !important;
+  color: #5b5b5b !important;
+  font-style: normal;
+}
+.popoverp{
+  font-size: 0.76vw;
+  margin-left: 3%;
+  color: #5B5B5B;
 }
   

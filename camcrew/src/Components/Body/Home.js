@@ -2,8 +2,11 @@ import Carousel from 'react-bootstrap/Carousel';
 import img1 from '../../Assets/Carousel1.png';
 import img2 from '../../Assets/Carousel2.png';
 import img3 from '../../Assets/Carousel3.png';
+import img4 from '../../Assets/azadi.svg';
+
 import About from './About';
 import Services from './Services';
+import Forms from './Form';
 
 function Home() {
   return (
@@ -18,6 +21,9 @@ function Home() {
         <Carousel.Caption className='CarouselCaptioncon1'>
           <h5 className="CarouselCaption1">We combine design, thinking and technical</h5>
         </Carousel.Caption>
+        <div className='azadi'>
+        <img src={img4} alt="azadi"/>
+        </div>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
         <img
@@ -28,6 +34,9 @@ function Home() {
         <Carousel.Caption className='CarouselCaptioncon2'>
           <h5 className="CarouselCaption2">We always stay on the cutting edge of digital</h5>
         </Carousel.Caption>
+        <div className='azadi'>
+        <img src={img4} alt="azadi"/>
+        </div>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
         <img
@@ -38,6 +47,9 @@ function Home() {
         <Carousel.Caption className='CarouselCaptioncon2'>
           <h5 className="CarouselCaption2">We crafts stunning and intuitive stuff</h5>
         </Carousel.Caption>
+        <div className='azadi'>
+        <img src={img4} alt="azadi"/>
+        </div>
       </Carousel.Item>
     </Carousel>
     <div className='HomeItemsContainer'>
@@ -66,6 +78,7 @@ function Home() {
      
       </div>
     </div>
+    <Forms/>
     <About/>
     <Services/>
     </>
