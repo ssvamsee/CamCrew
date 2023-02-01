@@ -104,7 +104,7 @@ img{
   /* Used for Home */
   .carouselimg{
     width: 100% !important;
-    height: 100vh !important;
+    height: 95vh !important;
   }
   .CarouselCaptioncon1{
     width: 36.3vw;
@@ -131,6 +131,69 @@ img{
     position: absolute;
     top:25%;
     left: 10% !important;
+  }
+  .HomeItemsContainer{
+    width:65.6vw;
+    height: 11.13vw;
+    /* border: red 1px solid; */
+    margin: auto;
+    margin-top: 41px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .Homecon{
+    width: 19.3vw;
+    height: 11.13vw;
+    /* border: red 1px solid; */
+  }
+  .homecon-1_1{
+    width: 13.18vw;
+    height: 3.46vw;
+    /* border: violet 1px solid; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .homesubcon1{
+    width:3.69vw;
+    height: 3.45vw;
+    /* border: blue 1px solid; */
+  }
+  .homesubcon2{
+    width:7.67vw;
+    height: 2.8vw;
+    /* border: blue 1px solid; */
+    margin: auto;
+  }
+  .homecon-1_2{
+    width:19.3vw;
+    height: 6.6vw;
+    /* border:#90213b 1px solid; */
+    margin: 0.87vw auto auto auto;
+  }
+  .homenumber{
+    font-size: 2.8vw;
+    line-height: 58.5px;
+    font-weight: 600;
+    color: #AD3AA9;
+  }
+  .hometext{
+    font-size: 1.18vw;
+    line-height: 24.38px;
+    font-weight: 500;
+    color: #666666;
+  }
+  .hometext1{
+    font-size: 0.82vw;
+    line-height: 19px;
+    font-weight: 400;
+    color: #666666;
+  }
+  .homespan{
+    font-size: 1.18vw;
+    line-height: 24.38px;
+    font-weight: 600;
+    color: #4D509C;
   }
   /* ................... */
   /* Used for Services */
@@ -213,5 +276,72 @@ img{
     /* border: red 1px solid; */
     margin-top: 1%;
   }
-
+  /* ....................... */
+  /* Used for About */
+  .About{
+    width: 98.8vw;
+    height: 63.26vw;
+    /* border:1px solid red; */
+    margin: auto;
+  }
+  .Aboutcon1{
+    height: 35.15vw;
+    /* border: #4D509C solid 1px; */
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: #F7F7F7;
+  }
+  .Aboutsubcon1{
+    width: 54.48vw;
+    /* border: 1px solid blue; */
+  }
+  .Aboutsubcon2{
+    width: 48.6vw;
+    /* border: 1px solid blue; */
+  }
+  .Aboutspan{
+    font-size: 0.94vw;
+    line-height: 21.79px;
+    font-weight: 400;
+    color: #666666;
+  }
+  .aboutspan{
+    font-size: 0.94vw;
+    line-height: 21.79px;
+    font-weight: 600;
+    color: #666666;
+  }
+  .Abouth1{
+    font-size: 2.35vw;
+    line-height: 49px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 2%;
+    margin-bottom: 4%;
+  }
+  .Aboutbutton{
+    width: 12.59vw;
+    height: 3.51vw;
+    font-size: 1.05vw;
+    color: #434242;
+    background-color: white;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(45deg, #964693, #298CDD); 
+    margin-top: 4%; 
+  }
+  .Aboutbutton:hover{
+    background-image:linear-gradient(45deg, #964693, #298CDD) !important; 
+    color: #ffffff;
+  }
+.Aboutbuttontext{
+  width:9.54vw;
+  height: 1.28;
+  font-weight: 700;
+  line-height: 22px;
+  font-size: 1.05vw;
+  margin: auto;
+}
   
