@@ -7,12 +7,13 @@ import img4 from '../../Assets/azadi.svg';
 import About from './About';
 import Services from './Services';
 import Forms from './Form';
+import Footer from '../Footer/Footer';
 
 function Home() {
   return (
     <>
     <Carousel variant="dark">
-      <Carousel.Item interval={2000}>
+      <Carousel.Item interval={2000} touch="false" keyboard="false" indicators={false}>
         <img
           className="d-block w-100 carouselimg"
           src={img1}
@@ -81,6 +82,7 @@ function Home() {
     <Forms/>
     <About/>
     <Services/>
+    <Footer/>
     </>
   );
 }

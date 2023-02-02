@@ -35,32 +35,32 @@ function Forms() {
                 <Form>
                     <Form.Group className="mb-3" controlId="formBasicText">
                         <Form.Label>Full Name</Form.Label>
-                        <Form.Control type="text" placeholder="Enter your full name here" required />
+                        <Form.Control type="text" required />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" placeholder="Enter your email here" required />
-                            <Form.Text className="text-muted">We'll never share your email with anyone else.</Form.Text>
+                            <Form.Control type="email" required />
+                            {/* <Form.Text className="text-muted">We'll never share your email with anyone else.</Form.Text> */}
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formBasicNumber">
                         <Form.Label>Mobile number</Form.Label>
-                        <Form.Control type="number" placeholder="Enter your mobile number" required />
+                        <Form.Control type="number" required />
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formBasicText">
                         <Form.Label>Subject</Form.Label>
-                        <Form.Control type="text" placeholder="Enter your subject of this request" required />
+                        <Form.Control type="text" required />
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formBasicText">
                         <Form.Label>Budget</Form.Label>
-                        <Form.Control type="text" placeholder="Enter your budget here" required />
+                        <Form.Control type="text" required />
                     </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formBasicText">
                         <Form.Label>Message</Form.Label>
-                        <Form.Control type="textarea" rows={3} placeholder="Enter your subject of this request" required />
+                        <Form.Control type="textarea" rows={3} required />
                     </Form.Group>
                   
                     

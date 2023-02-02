@@ -8,7 +8,6 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <NavBar></NavBar>
-        
       </div>
     </BrowserRouter>
   );

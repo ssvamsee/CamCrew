@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CamCrew/static/css/main.08bab826.css",
-    "main.js": "/CamCrew/static/js/main.1a20f12a.js",
+    "main.css": "/CamCrew/static/css/main.409d0572.css",
+    "main.js": "/CamCrew/static/js/main.f7462bf7.js",
     "static/js/787.2775a639.chunk.js": "/CamCrew/static/js/787.2775a639.chunk.js",
     "static/media/Carousel1.png": "/CamCrew/static/media/Carousel1.bdfd84c178ccb95e2085.png",
     "static/media/Carousel3.png": "/CamCrew/static/media/Carousel3.ab9e6e58f6eae528ebf8.png",
@@ -23,18 +23,22 @@
     "static/media/service8.png": "/CamCrew/static/media/service8.ae1bd85ad520d410c604.png",
     "static/media/azadi.svg": "/CamCrew/static/media/azadi.bae68f40b72d748eda3332a04c8a208c.svg",
     "static/media/abouticon5.svg": "/CamCrew/static/media/abouticon5.568b3680afba1694a29e58bd9a988956.svg",
+    "static/media/logo1.svg": "/CamCrew/static/media/logo1.676ecc151d7b04529e1d35812ddc67d6.svg",
     "static/media/logo.svg": "/CamCrew/static/media/logo.09cc041693d56200c522765a9a927724.svg",
     "static/media/abouticon3.svg": "/CamCrew/static/media/abouticon3.f058c3bd1214a8ff1b8f0305ad23c508.svg",
     "static/media/abouticon1.svg": "/CamCrew/static/media/abouticon1.f848c193865054e0cd45182e9be63205.svg",
     "static/media/abouticon4.svg": "/CamCrew/static/media/abouticon4.9365f71f1f7317833ab9bb293e7bc7f3.svg",
+    "static/media/footericon2.svg": "/CamCrew/static/media/footericon2.866fc3890b33014decb31cfc24f069d6.svg",
     "static/media/abouticon2.svg": "/CamCrew/static/media/abouticon2.6eed117291e14e8a856dc2de3a96efb4.svg",
     "index.html": "/CamCrew/index.html",
-    "main.08bab826.css.map": "/CamCrew/static/css/main.08bab826.css.map",
-    "main.1a20f12a.js.map": "/CamCrew/static/js/main.1a20f12a.js.map",
+    "static/media/footericon1.svg": "/CamCrew/static/media/footericon1.f918437c08c9ae568a73ef442012d2ad.svg",
+    "static/media/footericon3.svg": "/CamCrew/static/media/footericon3.fb6d43ff0995eed7295bfa4286212278.svg",
+    "main.409d0572.css.map": "/CamCrew/static/css/main.409d0572.css.map",
+    "main.f7462bf7.js.map": "/CamCrew/static/js/main.f7462bf7.js.map",
     "787.2775a639.chunk.js.map": "/CamCrew/static/js/787.2775a639.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08bab826.css",
-    "static/js/main.1a20f12a.js"
+    "static/css/main.409d0572.css",
+    "static/js/main.f7462bf7.js"
   ]
 }
