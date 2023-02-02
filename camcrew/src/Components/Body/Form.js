@@ -60,7 +60,7 @@ function Forms() {
 
                     <Form.Group className="mb-3" controlId="formBasicText">
                         <Form.Label>Message</Form.Label>
-                        <Form.Control type="textarea" rows={3} required />
+                        <Form.Control as="textarea" rows={3} required />
                     </Form.Group>
                   
                     

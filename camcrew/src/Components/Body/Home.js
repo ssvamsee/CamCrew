@@ -8,6 +8,8 @@ import About from './About';
 import Services from './Services';
 import Forms from './Form';
 import Footer from '../Footer/Footer';
+import Teamwork from './Teamwork';
+import Work from './Work';
 
 function Home() {
   return (
@@ -82,6 +84,8 @@ function Home() {
     <Forms/>
     <About/>
     <Services/>
+    <Teamwork/>
+    <Work/>
     <Footer/>
     </>
   );

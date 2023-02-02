@@ -216,7 +216,7 @@ img{
     width:98vw;
     height: 60vw;
     /* border: red 1px solid; */
-    margin: 2% auto 2% auto;
+    margin: 2% auto auto auto;
     
   }
   .Servicecontainer{
@@ -637,7 +637,7 @@ button:active{
   height: 11.13vw;
   /* border: red 1px solid; */
   padding-top: 3.5%;
-  padding-left: 1%;
+  padding-left: 3%;
 }
 .Footertextcon1{
   width:14.87vw;
@@ -731,4 +731,208 @@ button:active{
   margin-left: 10%;
 
 }
-  
+/* ............... */
+/* Used for Teamwork */
+.Teamwork{
+  height: 27.8vw;
+  background: #F5F5F5;
+  /* border:red 1px solid; */
+}
+.Teamwork1{
+  height:4.1vw;
+  width:31.04vw;
+  /* border: yellow 1px solid; */
+  margin: auto;
+  text-align: center;
+  padding: 2%;
+}
+.Teamworktext1{
+  color: #AD3AA9;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.93vw;
+}
+.Teamworktext2{
+  font-style: normal;
+  font-weight: 600;
+  color: #333333;
+  font-size: 2.34vw;
+  margin-top: -2%;
+}
+.Teamwork2{
+  width:68.71vw;
+  height: 12.59vw;
+  /* border: blue 1px solid; */
+  margin: 6% auto auto auto;
+  display: flex;
+  justify-content: space-between;
+  gap:5px
+}
+.Teamworksub2{
+  height: 12.59vw;
+  width: 16.25vw;
+  /* border:yellow 1px solid; */
+  text-align: center;
+  text-transform: capitalize;
+}
+.Teamworksub2-1{
+  width:10.54vw;
+  height: 10.54vw;
+  margin: auto;
+  /* border:pink 1px solid; */
+}
+.teamworksubtext{
+  font-weight: 600;
+  color: #333333;
+  font-size: 0.93vw;
+}
+.teamworksubtext1{
+  color: #969696;
+  font-size: 0.64vw;
+  font-weight: 600;
+}
+.WCU{
+  height: 31vw;
+}
+.WCUimgcon{
+  /* position: relative; */
+  text-align: center;
+}
+.wcutext1{
+margin-top: -27%;
+}
+.twcon1{
+  width:29.9vw;
+  height: 5.74vw;
+  color: #FFFFFF;
+  margin: auto;
+}
+.twcontext1{
+  font-size: 2.34vw;
+  font-weight: 600;
+  line-height: 2.8vw;
+}
+.twcon2{
+  height: 6.32vw;
+  width: 41.88vw;
+  color: #FFFFFF;
+  margin: 1% auto;
+}
+.twcontext2{
+  font-size: 1.05vw;
+  font-weight: 500;
+  line-height: 1.28vw;
+}
+/* .................... */
+/* Used for Work */
+.Work{
+  height:41.3vw;
+  /* background-color: #964693; */
+}
+.Worktextcon{
+  width:34.8vw;
+  height: 2.87vw;
+  margin: auto;
+  padding: 2% 0 1% 0;
+}
+.Worktext1{
+  font-size: 2.34vw;
+  font-weight: 600;
+  color: #333333;
+}
+.Workspan{
+  font-size: 2.34vw;
+  font-weight: 600;
+  color: #AD3AA9;
+}
+.formcon{
+  height: 35vw;
+  width:85vw;
+  /* border:white 1px solid; */
+  margin: 3% auto auto auto;
+  display: flex;
+  justify-content: space-around;
+  gap:1vw;
+  padding-top: 1%;
+}
+.workformcon{
+  width:40vw;
+  height: 32vw;
+  /* border: white 1px solid; */
+}
+.workdropdowncon{
+  width:38vw;
+  height: 32vw;
+  /* border: yellow 1px solid; */
+}
+.workoptionlist{
+  width:18vw !important;
+  border-radius: 0% !important;
+  height: 3vw;
+}
+.forminline{
+  display: flex !important;
+ justify-content: space-between;
+}
+.formcontrol{
+  border-radius: 0% !important;
+  margin-bottom: 4% !important;
+  height: 3vw !important;
+}
+.worksendbutton{
+  width:40vw !important;
+  height:2.34vw !important;
+  margin-top: 5%;
+  border-radius: 0% !important;
+  background: linear-gradient(45deg,  #964693, #298CDD) !important;
+}
+.worklistcon{
+  width: 28vw;
+  height: 30vw;
+  /* border: red 1px solid; */
+  margin: 2% 5% auto auto;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  gap:0.87vw;
+  overflow: auto;
+}
+.workdropdown1{
+  border-bottom: #4D509C 1.5px solid;
+}
+.workdropdownlist{
+  font-size: 1.17vw;
+  font-weight: 700;
+  color: #434242;
+}
+.Accordionhead{
+  font-size: 0.82vw;
+  font-weight: 600;
+  color: #000000;
+}
+.Accordiontext{
+  font-size: 0.82vw;
+  font-weight: 400;
+  color: #666666;
+}
+.accordion-button{
+  font-size: 1.17vw !important;
+  font-weight: 700 !important;
+  color: #434242 !important;
+}
+.accordion{
+  --bs-accordion-border-color:#4D509C !important;
+  --bs-accordion-border-width: 1.5px !important;
+  border-bottom: 1.5px !important;
+}
+.accordion-item{
+  border:none !important;
+  /* border-bottom: 1.5px !important; */
+}
+.Accordionhr{
+  width:26vw !important;
+  border: #4D509C 1.5px solid !important; 
+}
+.accordion-item.is--open {
+  border-top: var(--border-size-m) solid var(--color-neutral-4) !important;
+}
