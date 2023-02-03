@@ -25,8 +25,10 @@ function About(){
                     <p className='Aboutspan'>  In addition to our services, Camcrew.in also offers a wide range of equipment rental options, including cameras, lenses, lighting, and grip equipment. We have a variety of the latest cameras available for rental, such as the Black Magic Pocket, Canon and Sony's range of cameras. This makes us a one-stop-shop for all your production needs.</p>
 
                     <p className='Aboutspan'>  Another unique aspect of Camcrew.in is our commitment to customer service. The company's goal is to provide their clients with a hassle-free and smooth experience, whether they're a first-time filmmaker or an experienced production company. They provide customized solutions for each project, which helps clients to get the best results for their production needs.</p>
-                    </div>
                     <button className='Aboutbutton'><p className='Aboutbuttontext'>Make An Enquiry!</p></button>
+
+                    </div>
+
                     {/* <button class="btn btn-slide-left">Make An Enquiry!</button> */}
 
                 </div>
@@ -35,7 +37,8 @@ function About(){
                 <div className='Aboutsubcon3'>
                     <h1 className='Abouth1-1'>We are delivering beautiful digital products for you</h1>
                 </div>
-                <hr></hr>
+                <div>
+                <hr></hr></div>
                 <div className='aaaaaa'>
                 <div className="Aboutsubcon4">
                     <div className="Aboutsubcon4-1">
@@ -47,6 +50,7 @@ function About(){
                                 <h1 className='Aboutsub4h1'>Expert Photographers at Your Service</h1>
                             </div>
                         </div>
+                        <hr className="Abouthrline"></hr>
                         <div className="Aboutsub4-2-1">
                             <p className='Aboutsub4p'>Our team of photographers are experts in their field, so you can rest assured that no detail is too small for them to capture. We have a wide range of styles and techniques that we use to make sure your photos look amazing.</p>
                         </div>
@@ -60,6 +64,7 @@ function About(){
                                 <h1 className='Aboutsub4h1'>High Quality Images Guaranteed</h1>
                             </div>
                         </div>
+                        <hr className="Abouthrline"></hr>
                         <div className="Aboutsub4-2-1">
                             <p className='Aboutsub4p'>We guarantee that every photo taken by our team will be printed in high quality. We use state-of-the-art cameras and lenses so you can be sure that your images will be crisp and clear, no matter what kind of event you're hosting.</p>
                         </div>
@@ -73,6 +78,7 @@ function About(){
                                 <h1 className='Aboutsub4h1'>Affordable Photography Services</h1>
                             </div>
                         </div>
+                        <hr className="Abouthrline"></hr>
                         <div className="Aboutsub4-2-1">
                             <p className='Aboutsub4p'>Choose from our reliable and affordable packages to suit your budget. With no hidden charges or long term contracts, you can get great value for your money!</p>
                         </div>
@@ -86,10 +92,12 @@ function About(){
                                 <h1 className='Aboutsub4h1'>Flexible Booking Options</h1>
                             </div>
                         </div>
+                        <hr className="Abouthrline"></hr> 
                         <div className="Aboutsub4-2-1">
                             <p className='Aboutsub4p'>We make booking photographers easy and convenient with our flexible booking options. You can book appointment online or speak with one of our customer service representatives if you have any questions or concerns about your order.</p>
                         </div>
-                    </div>   
+                    </div>  
+                    
                 </div>
                 <div className='Aboutimageicon'>
                         <img src={img6} alt="icon"/>

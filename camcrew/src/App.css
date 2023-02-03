@@ -10,26 +10,28 @@ img{
 .Navbar_main {
     box-sizing: border-box;
     /* position: sticky !important; */
-    width: 100%;
+    width: 98.8vw;
     height: 100px;
     top: -1px;
     background: #F5F5F5 !important;
-    border: 0.3px solid #ffffff;
+    border-bottom: 0.3px solid #ffffff;
+    /* border: red 1px solid; */
     z-index: 9;
   }
-  @media screen and (max-width:600px) {
+  /* @media screen and (max-width:600px) {
     .Navbar_main{
       width: 100rem !important;
     }
-  }
+  } */
 
   .Navbarcon{
     width: 1920px;
     margin-left: 25% !important;
+    /* border:red 1px solid   */
   }
   
   .nav-link {
-    color: #666666 !important;
+    color: #000000 !important;
     font-size: 1.2vw !important;
     font-weight: 600 !important;
     font-style: normal !important;
@@ -98,13 +100,13 @@ img{
     flex-direction: row;
     /* border:2px solid red; */
     justify-content: space-between;
-    gap: 40px;
+    gap: 2.34vw;
     margin-left: 2%;
   }
   /* ........................... */
   /* Used for Home */
   .carouselimg{
-    width: 100% !important;
+    width: 98.8vh !important;
     height: 95vh !important;
     position: relative;
   }
@@ -125,9 +127,10 @@ img{
     /* left: 10.54vw; */
     left: 10%;
   }
-  .CarouselCaption1,.CarouselCaption2{
+  .CarouselCaption1{
     font-weight: 700 !important;
     font-size: 4vw !important;
+    color: #000000 !important;
     /* line-height: 85.33px !important; */
     text-align: left;
   }
@@ -139,6 +142,10 @@ img{
   }
   .CarouselCaption2{
     color: #ffffff;
+    font-weight: 700 !important;
+    font-size: 4vw !important;
+    text-align: left;
+
   }
   .CarouselCaptioncon2{
     width: 33.4vw;
@@ -199,7 +206,7 @@ img{
     color: #666666;
   }
   .hometext1{
-    font-size:0.72vw;
+    font-size:0.82vw;
     /* line-height: 19px; */
     font-weight: 400;
     color: #666666;
@@ -213,7 +220,7 @@ img{
   /* ................... */
   /* Used for Services */
   .Service{
-    width:98vw;
+    width:98.8vw;
     height: 60vw;
     /* border: red 1px solid; */
     margin: 2% auto auto auto;
@@ -223,7 +230,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 11px;
+    gap: 0.64vw;
     margin-top: 2%;
     text-align: center;
   }
@@ -234,8 +241,9 @@ img{
     display: block; 
   }
   .Servicetexthead{
-    font-size: 2.3vw;
+    font-size: 2.34vw;
     font-weight: 600;
+    color: #333333;
     /* line-height: 49px; */
     text-align: center;
   }
@@ -244,7 +252,7 @@ img{
     border: #AD3AA9 2px solid !important;
     width:5%;
     opacity: 1 !important;
-    margin: auto !important;
+    margin: 0.5% auto auto auto !important;
   }
 
   .Servicecon1,.Servicecon2,.Servicecon3,.Servicecon4{
@@ -258,8 +266,10 @@ img{
   .Servicecon{
     display: flex;
     flex-direction: row;
-    gap:13px;
+    gap:0.76vw;
     margin-top: -1%;
+    margin-left: 0.45%;
+    width:98vw;
   }
   .Servicecon5{
     height: 35.5vw;
@@ -297,7 +307,7 @@ img{
     width: 98.8vw;
     height: 63.26vw;
     /* border:1px solid red; */
-    margin:1% auto auto auto;
+    margin:3% auto auto auto;
   
   }
   .Aboutcon1{
@@ -305,7 +315,7 @@ img{
     /* border: #4D509C solid 1px; */
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 2.34vw;
     background-color: #F7F7F7;
   }
   .Aboutsubcon1{
@@ -314,17 +324,20 @@ img{
   }
   .Aboutsubcon2{
     width: 48.6vw;
+    height: 35vw;
     /* border: 1px solid blue; */
   }
   .Abouttextarea{
     width:40vw;
+    height: 29vw;
     /* border:red 1px solid */
   }
   .Aboutspan{
-    font-size: 0.87vw;
+    font-size: 0.85vw;
     /* line-height: 1.27vw; */
     font-weight: 400;
     color: #666666;
+    margin-bottom: 1.3vw !important;
   }
   .aboutspan{
     font-size: 0.94vw;
@@ -350,7 +363,7 @@ img{
     border-image-slice: 1;
     border-width: 3px;
     border-image-source: linear-gradient(45deg, #964693, #298CDD); 
-    /* margin-top: 4%;   */
+    margin-top: 0px;
   }
   .Aboutbutton:hover{
     background-image:linear-gradient(45deg, #964693, #298CDD) !important; 
@@ -401,7 +414,7 @@ img{
   background-color: #333333;
 }
 .Aboutsubcon3{
-  width:32.74vw;
+  width:40%;
   height: 5.74vw;
   /* border: blue 1px solid; */
   margin: 2% auto 1% auto;
@@ -410,9 +423,9 @@ img{
 }
 .Abouth1-1{
   font-size: 2.34vw;
-  font-weight: 500;
+  font-weight: 600;
   /* line-height: 48.76px; */
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .Aboutsubcon4{
   width:68.71vw;
@@ -421,7 +434,7 @@ img{
   margin: 4% auto auto 10%;
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 2.34vw;
 }
 .Aboutsubcon4-1{
   width:18.16vw;
@@ -434,7 +447,15 @@ img{
   /* border: red 1px solid; */
   display: flex;
   justify-content: space-between;
-  gap:3px
+  gap:0.17vw;
+}
+.Abouthrline{
+    border: #FFFFFF 1.5px solid !important;
+    width:5.21vw;
+    opacity: 1 !important;
+    margin-left: 0% !important;
+    margin-top: 2% !important;
+    /* margin:  !important; */
 }
 .Aboutsub4-1-2{
   width: 2.4vw;
@@ -453,6 +474,7 @@ img{
   height: 2.81vw;
   /* border: pink 1px solid; */
   margin: auto;
+  z-index:1
 }
 .Aboutsub4-2-1{
   width:16.98vw;
@@ -461,7 +483,7 @@ img{
   /* border: green 1px solid; */
 }
 .Aboutsub4p{
-  font-weight: lighter;
+  font-weight: 400;
   font-size: 0.82vw;
   /* line-height: 25px; */
   color: #FFFFFF;
@@ -470,7 +492,7 @@ img{
   
 }
 .Aboutsub4h1{
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.17vw;
   /* line-height: 24px; */
   font-style: normal;
@@ -576,7 +598,7 @@ button:active{
 /* ............... */
 /* Used for Footer */
 .Footer{
-  Width:98.9vw;
+  Width:98.8vw;
   height: 37.49vw;
   /* border: red 1px solid; */
 }
@@ -694,7 +716,7 @@ button:active{
   padding: 2%;
   justify-content: space-between;
   display: flex;
-  gap: 30px;
+  gap: 1.75vw;
 }
 .Footerbutton{
   width: 12.59vw;
@@ -725,7 +747,7 @@ button:active{
   flex-direction: row;
   /* border:2px solid red; */
   justify-content: space-between;
-  gap: 2px;
+  gap: 0.11vw;
   width: 9vw;
   margin-top: 10%;
   margin-left: 10%;
@@ -735,6 +757,7 @@ button:active{
 /* Used for Teamwork */
 .Teamwork{
   height: 27.8vw;
+  width:98.8vw;
   background: #F5F5F5;
   /* border:red 1px solid; */
 }
@@ -766,7 +789,7 @@ button:active{
   margin: 6% auto auto auto;
   display: flex;
   justify-content: space-between;
-  gap:5px
+  gap:0.29vw;
 }
 .Teamworksub2{
   height: 12.59vw;
@@ -827,6 +850,7 @@ margin-top: -27%;
 /* Used for Work */
 .Work{
   height:41.3vw;
+  width: 98.8vw;
   /* background-color: #964693; */
 }
 .Worktextcon{
@@ -846,9 +870,9 @@ margin-top: -27%;
   color: #AD3AA9;
 }
 .formcon{
-  height: 35vw;
+  height:35vw;
   width:85vw;
-  /* border:white 1px solid; */
+  /* border:red 1px solid; */
   margin: 3% auto auto auto;
   display: flex;
   justify-content: space-around;
@@ -858,16 +882,30 @@ margin-top: -27%;
 .workformcon{
   width:40vw;
   height: 32vw;
-  /* border: white 1px solid; */
+  /* border: red 1px solid; */
 }
 .workdropdowncon{
   width:38vw;
   height: 32vw;
   /* border: yellow 1px solid; */
 }
+.mb-3{
+  margin-bottom:1vw !important;
+}
 .workoptionlist{
   width:18vw !important;
   border-radius: 0% !important;
+  height: 3vw;
+}
+.workformoption,.form-select{
+  font-size:0.93vw !important;
+  font-weight: 400 !important;
+  color: #434242 !important;
+}
+.form-control[type=file]{
+  font-size:0.93vw !important;
+  font-weight: 400 !important;
+  color: #434242 !important;
   height: 3vw;
 }
 .forminline{
@@ -924,6 +962,17 @@ margin-top: -27%;
   --bs-accordion-border-color:#4D509C !important;
   --bs-accordion-border-width: 1.5px !important;
   border-bottom: 1.5px !important;
+  --bs-accordion-btn-focus-border-color:red !important;
+  --bs-border-color:white !important;
+  --bs-accordion-active-bg: #4D509C !important;
+  --bs-accordion-active-color:#FFFF !important;
+  border-color: transparent !important;
+  --bs-accordion-btn-focus-box-shadow:none !important
+}
+.accordion-button{
+  /* width:27.5vw !important; */
+  border-bottom: none !important;
+  background-color: transparent !important;
 }
 .accordion-item{
   border:none !important;
@@ -935,4 +984,51 @@ margin-top: -27%;
 }
 .accordion-item.is--open {
   border-top: var(--border-size-m) solid var(--color-neutral-4) !important;
+}
+
+.formlink{
+  display: block;
+  width: 11.7vw;
+  height: 2.5vw;
+  /* line-height: 40px; */
+  font-size: 1.05vw;
+  text-decoration: none;
+  color: #298CDD;
+  font-weight: 700;
+  /* border: 2px solid #333; */
+  letter-spacing: 0.12vw;
+  padding: 0.5vw;
+  text-align: center !important;
+  position: relative;
+  transition: all .35s;
+}
+
+.formlink span{
+  position: relative;
+  z-index: 2;
+}
+
+.formlink:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(45deg, #964693, #298CDD);
+  transition: all .35s;
+}
+
+.formlink:hover{
+  color: #FFFFFF !important;
+}
+
+.formlink:hover:after{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -20px;
+  color: #FFFFFF;
 }
