@@ -4,6 +4,7 @@ import img2 from '../../Assets/footericon2.svg';
 import img3 from '../../Assets/footericon3.svg';
 import img4 from '../../Assets/logo1.svg';
 import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
+import { NavLink} from 'react-router-dom';
 
 
 function Footer(){
@@ -41,7 +42,8 @@ function Footer(){
             <div className="Footer2">
                     <div className='Footer2-1con'>
                         <div className='Footerlogocon'>
-                            <img src={img4} alt="logo"/>
+                        <NavLink to="/Home"> <img src={img4} alt="logo"/>
+</NavLink>
                         </div>
                         <div className="Footericons">
         <IconContext.Provider value={{ className: "shared-class", size: 30 }} >
@@ -53,13 +55,14 @@ function Footer(){
                     </div>
                     <div className='Footer2-1con'>
                         <div className='Footertextcon1'>
-                            <h1 className='Footerletstext'>Let's Talk?</h1>
+                        {/* <Nav.Link  as={Link} to="/Contact" eventKey="1"><h1 className='Footerletstext'>Let's Talk?</h1></Nav.Link> */}
+                        <NavLink to="/Contact"><h1 className='Footerletstext'>Let's Talk?</h1></NavLink>
                         </div>
         
                     </div>
                     <div className='Footer2-1con'>
                         <div className='footerbuttoncon'>
-                        <button className='Footerbutton'><p className='Footerbuttontext'>Make An Enquiry!</p></button>
+                        <button className='Footerbutton'><NavLink to="/Contact"><p className='Footerbuttontext'>Make An Enquiry!</p></NavLink></button>
                         </div>
             
                     </div>
@@ -94,6 +97,7 @@ function Footer(){
                 </div>
             </div>
         </div>
+       
         </>
     );
 }

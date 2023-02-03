@@ -14,21 +14,21 @@ function Work(){
             <div className="formcon">
                 <div className='workformcon'>
                 <Form>
-                    <Form.Group className="mb-3" controlId="formBasicText">
+                    <Form.Group controlId="formBasicText">
                         <Form.Label>Full Name</Form.Label>
                         <Form.Control type="text" required  className="formcontrol"/>
                     </Form.Group>
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Group controlId="formBasicEmail">
                         <Form.Label>Email Address</Form.Label>
                             <Form.Control type="email" required className="formcontrol" />
                     </Form.Group>
 
-                    <Form.Group className="mb-3" controlId="formBasicNumber">
+                    <Form.Group controlId="formBasicNumber">
                         <Form.Label>Mobile Number</Form.Label>
                         <Form.Control type="number" required className="formcontrol" />
                     </Form.Group> 
                     <div className='forminline'>
-                    <Form.Group className="mb-3">
+                    <Form.Group>
                     <Form.Label>Applying For</Form.Label>
                     <Form.Select aria-label="Default select example" required className='workoptionlist'>
                         <option className='workformoption'>Video Editor</option>
@@ -39,7 +39,7 @@ function Work(){
                         <option className='workformoption' value="5">Others</option>
                     </Form.Select> 
                     </Form.Group>
-                    <Form.Group controlId="formFile" className="mb-3">
+                    <Form.Group controlId="formFile" >
                         <Form.Label>Attach Your Resume </Form.Label>
                         <Form.Control type="file" className='workoptionlist formcontrol' />
                     </Form.Group>             

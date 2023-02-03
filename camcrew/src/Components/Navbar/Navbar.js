@@ -7,6 +7,10 @@ import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineTwitter } from 'react-i
 import { IconContext } from "react-icons";
 import Home from '../Body/Home';
 import Services from '../Body/Services';
+import About from '../Body/About';
+import Work from '../Body/Work';
+import Faq from '../Body/FAQ';
+import Contact from '../Body/Contact';
 // import { useState } from 'react';
 // import {link} from 'react-scroll'
 
@@ -34,7 +38,7 @@ function NavBar() {
 
           <Nav.Link className='navbar_link' as={Link} to="/Career" eventKey="1">Career</Nav.Link>
           <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="1">Contact</Nav.Link> 
-          <Nav.Link className='navbar_link' as={Link} to="/Faq" eventKey="1">FAQ's</Nav.Link>  
+          <Nav.Link className='navbar_link' as={Link} to="/faq" eventKey="1">FAQ's</Nav.Link>  
  
         </Nav>
         <div className="icons">
@@ -52,7 +56,14 @@ function NavBar() {
             <Route path='/' element={<Home></Home>}></Route>
             <Route path='/home' element = {<Home></Home>}></Route>
             <Route path='/CamCrew' element = {<Home></Home>}></Route>
-            <Route path='/Services' element = {<Services/>}></Route>
+            <Route path='/About' element = {<About/>}></Route>
+            <Route path='/Services' element = {<Services/>}></Route>            
+            <Route path='/Career' element = {<Work/>}></Route>
+            <Route path='/Contact' element = {<Contact/>}></Route>
+            <Route path='/faq' element = {<Faq/>}></Route>
+
+
+
         </Routes>
     </div>
     </>

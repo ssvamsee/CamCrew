@@ -17,7 +17,7 @@ function Home() {
     <Carousel variant="dark">
       <Carousel.Item interval={2000} touch="false" keyboard="false" indicators={false}>
         <img
-          className="d-block w-100 carouselimg"
+          className="d-block carouselimg"
           src={img1}
           alt="First slide"
         />
@@ -30,7 +30,7 @@ function Home() {
       </Carousel.Item>
       <Carousel.Item interval={2000}>
         <img
-          className="d-block w-100 carouselimg"
+          className="d-block carouselimg"
           src={img2}
           alt="Second slide"
         />
@@ -43,7 +43,7 @@ function Home() {
       </Carousel.Item>
       <Carousel.Item interval={2000}>
         <img
-          className="d-block w-100 carouselimg"
+          className="d-block carouselimg"
           src={img3}
           alt="Third slide"
         />
@@ -86,7 +86,6 @@ function Home() {
     <Services/>
     <Teamwork/>
     <Work/>
-    <Footer/>
     </>
   );
 }
