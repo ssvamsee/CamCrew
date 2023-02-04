@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import img1 from '../../Assets/teamwork1.svg';
 import img2 from '../../Assets/teamwork2.png';
 import img3 from '../../Assets/teamwork3.png';
@@ -11,6 +12,12 @@ import img6 from '../../Assets/wcu.svg';
 function Teamwork(){
     return(
         <>
+         <Helmet>
+      <title>CamCrew | Team</title>
+      <meta 
+      name="description"
+      content="Get info on CamCrew Team"/>
+      </Helmet>
             <div className='Teamwork'>
                 <div className="Teamwork1">
                     <p className="Teamworktext1">TEAMWORK BUILDS TRUST</p>

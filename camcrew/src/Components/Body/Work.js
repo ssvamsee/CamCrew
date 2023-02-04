@@ -1,12 +1,18 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Accordion from 'react-bootstrap/Accordion';
+import { Helmet } from 'react-helmet';
 
 
 function Work(){
       return(
-       
         <>
+         <Helmet>
+      <title>CamCrew | Home</title>
+      <meta 
+      name="description"
+      content="Get info about work of Camcrew"/>
+      </Helmet>
         <div className="Work">
             <div className="Worktextcon">
                 <h1 className="Worktext1">WANT TO WORK WITH US <span className="Workspan">?</span></h1>

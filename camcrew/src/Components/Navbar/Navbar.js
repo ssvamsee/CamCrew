@@ -54,7 +54,7 @@ function NavBar() {
     <div>
         <Routes>
             <Route path='/' element={<Home></Home>}></Route>
-            <Route path='/home' element = {<Home></Home>}></Route>
+            <Route path='/Home' element = {<Home></Home>}></Route>
             <Route path='/CamCrew' element = {<Home></Home>}></Route>
             <Route path='/About' element = {<About/>}></Route>
             <Route path='/Services' element = {<Services/>}></Route>            

@@ -2,6 +2,7 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 import { useState } from 'react';
+import { Helmet } from 'react-helmet';
 
 
 function Contact(){
@@ -37,6 +38,12 @@ function Contact(){
 
     return(
         <>
+         <Helmet>
+      <title>CamCrew | Contact</title>
+      <meta 
+      name="description"
+      content="Get info on CamCrew Contact page"/>
+      </Helmet>
             <div className='contactformcon'>
                 <div className='contactformheadcon'>
                 <h3 className='contactletstalk'>Let's Talk?</h3>

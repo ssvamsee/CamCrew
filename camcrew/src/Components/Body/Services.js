@@ -12,10 +12,17 @@ import img11 from '../../Assets/service11.png';
 import img12 from '../../Assets/service12.png';
 import img13 from '../../Assets/service13.png';
 import img14 from '../../Assets/service14.png';
+import { Helmet } from 'react-helmet';
 
 function Services(){
     return(
         <>
+         <Helmet>
+      <title>CamCrew | Services</title>
+      <meta 
+      name="description"
+      content="Get info on CamCrew Services"/>
+      </Helmet>
             <div className="Service" id='Services'>
                 <div className="Servicetextcon">
                     <h1 className="Servicetexthead">Our Services</h1>

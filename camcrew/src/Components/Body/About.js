@@ -1,3 +1,5 @@
+import { Helmet } from 'react-helmet';
+import { NavLink } from 'react-router-dom';
 import img1 from '../../Assets/About.png';
 import img2 from '../../Assets/abouticon1.svg';
 import img3 from '../../Assets/abouticon2.svg';
@@ -10,6 +12,12 @@ import img6 from '../../Assets/abouticon5.svg';
 function About(){
     return(
         <>
+         <Helmet>
+      <title>CamCrew | About</title>
+      <meta 
+      name="description"
+      content="Get info About Camcrew"/>
+      </Helmet>
         <div className="About">
             <div className="Aboutcon1">
                 <div className="Aboutsubcon1">
@@ -25,7 +33,7 @@ function About(){
                     <p className='Aboutspan'>  In addition to our services, Camcrew.in also offers a wide range of equipment rental options, including cameras, lenses, lighting, and grip equipment. We have a variety of the latest cameras available for rental, such as the Black Magic Pocket, Canon and Sony's range of cameras. This makes us a one-stop-shop for all your production needs.</p>
 
                     <p className='Aboutspan'>  Another unique aspect of Camcrew.in is our commitment to customer service. The company's goal is to provide their clients with a hassle-free and smooth experience, whether they're a first-time filmmaker or an experienced production company. They provide customized solutions for each project, which helps clients to get the best results for their production needs.</p>
-                    <button className='Aboutbutton'><p className='Aboutbuttontext'>Make An Enquiry!</p></button>
+                    <button className='Aboutbutton'><NavLink to="/Contact" className="aboutbuttext"><p className='Aboutbuttontext'>Make An Enquiry!</p></NavLink></button>
 
                     </div>
 

@@ -1,8 +1,15 @@
 import Accordion from 'react-bootstrap/Accordion';
+import { Helmet } from 'react-helmet';
 
 function Faq(){
     return(
         <>
+         <Helmet>
+      <title>CamCrew | FAQ</title>
+      <meta 
+      name="description"
+      content="Get FAQ about Camcrew"/>
+      </Helmet>
             <div>
                 <div className="Faqhead">
                    <div className="faqspanheadcon"> <span className="faqspanhead">FAQ</span></div>

@@ -10,10 +10,17 @@ import Forms from './Form';
 import Footer from '../Footer/Footer';
 import Teamwork from './Teamwork';
 import Work from './Work';
+import { Helmet } from 'react-helmet';
 
 function Home() {
   return (
     <>
+    <Helmet>
+      <title>CamCrew | Home</title>
+      <meta 
+      name="description"
+      content="Get info on CamCrew Home page"/>
+      </Helmet>
     <Carousel variant="dark">
       <Carousel.Item interval={2000} touch="false" keyboard="false" indicators={false}>
         <img
