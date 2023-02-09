@@ -33,7 +33,7 @@ function About(){
                     <p className='Aboutspan'>  In addition to our services, Camcrew.in also offers a wide range of equipment rental options, including cameras, lenses, lighting, and grip equipment. We have a variety of the latest cameras available for rental, such as the Black Magic Pocket, Canon and Sony's range of cameras. This makes us a one-stop-shop for all your production needs.</p>
 
                     <p className='Aboutspan'>  Another unique aspect of Camcrew.in is our commitment to customer service. The company's goal is to provide their clients with a hassle-free and smooth experience, whether they're a first-time filmmaker or an experienced production company. They provide customized solutions for each project, which helps clients to get the best results for their production needs.</p>
-                    <button className='Aboutbutton'><NavLink to="/Contact" className="aboutbuttext"><p className='Aboutbuttontext'>Make An Enquiry!</p></NavLink></button>
+                    <button className='Aboutbutton'><NavLink to="/Contact" className="aboutbuttext"><p className='Aboutbuttontext'>Make An Enquiry !</p></NavLink></button>
 
                     </div>
 
@@ -43,16 +43,16 @@ function About(){
             </div>
             <div className="Aboutcon2">
                 <div className='Aboutsubcon3'>
-                    <h1 className='Abouth1-1'>We are delivering beautiful digital products for you</h1>
-                </div>
-                <div>
+                    <h1 className='Abouth1-1'>We are delivering beautiful digital products for you</h1><div>
                 <hr></hr></div>
+                </div>
+                
                 <div className='aaaaaa'>
                 <div className="Aboutsubcon4">
                     <div className="Aboutsubcon4-1">
                         <div className="Aboutsub4-1-1">
                             <div className="Aboutsub4-1-2">
-                                    <img src={img2} alt="icon"/>
+                                    <img src={img2} alt="icon" className="aboutsmallimg"/>
                             </div>
                             <div className="Aboutsub4-1-3">
                                 <h1 className='Aboutsub4h1'>Expert Photographers at Your Service</h1>
@@ -66,7 +66,7 @@ function About(){
                     <div className="Aboutsubcon4-1">
                         <div className="Aboutsub4-1-1">
                             <div className="Aboutsub4-1-2">
-                                    <img src={img3} alt="icon"/>
+                                    <img src={img3} alt="icon" className="aboutsmallimg"/>
                             </div>
                             <div className="Aboutsub4-1-3">
                                 <h1 className='Aboutsub4h1'>High Quality Images Guaranteed</h1>
@@ -80,7 +80,7 @@ function About(){
                     <div className="Aboutsubcon4-1">
                         <div className="Aboutsub4-1-1">
                             <div className="Aboutsub4-1-2">
-                                    <img src={img4} alt="icon"/>
+                                    <img src={img4} alt="icon" className="aboutsmallimg"/>
                             </div>
                             <div className="Aboutsub4-1-3">
                                 <h1 className='Aboutsub4h1'>Affordable Photography Services</h1>
@@ -94,7 +94,7 @@ function About(){
                     <div className="Aboutsubcon4-1">
                         <div className="Aboutsub4-1-1">
                             <div className="Aboutsub4-1-2">
-                                    <img src={img5} alt="icon"/>
+                                    <img src={img5} alt="icon" className="aboutsmallimg"/>
                             </div>
                             <div className="Aboutsub4-1-4">
                                 <h1 className='Aboutsub4h1'>Flexible Booking Options</h1>

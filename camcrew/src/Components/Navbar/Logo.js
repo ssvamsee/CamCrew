@@ -4,7 +4,7 @@ import logo from "../../Assets/logo.svg"
 function Logo(){
     return(
         <div className="logocontainer">
-            <NavLink to="Home">
+            <NavLink to="Home" className="navimg">
             <img className="logoimage" src={logo} alt="Logo"></img></NavLink>
 
         </div>

@@ -3,9 +3,13 @@ import NavBar from "./Components/Navbar/Navbar";
 import "./App.css";
 import Footer from "./Components/Footer/Footer";
 import { Helmet } from "react-helmet";
+import GoToTopButton from "./Components/Body/GoToTopButton";
+// import { ChatProvider } from './contexts/chat.context';
+// import React from 'react';
 
 function App() {
   return (
+    <>
     <BrowserRouter>
     <Helmet>
       <title>CamCrew</title>
@@ -22,9 +26,10 @@ function App() {
       <div className="App">
         <NavBar></NavBar>
         <Footer/>
-
       </div>
     </BrowserRouter>
+    <GoToTopButton/> 
+    </>
   );
 }
 

@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 import { useState } from 'react';
 import { Helmet } from 'react-helmet';
+import GoToTop from '../Footer/GoToTop';
 
 
 function Contact(){
@@ -83,6 +84,7 @@ function Contact(){
                     <Button variant="primary" type="submit" className='contactsendbutton'>Send</Button>
                 </Form>
             </div>
+            <GoToTop/>
         </>
     );
 }

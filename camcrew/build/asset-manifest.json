@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CamCrew/static/css/main.e5c1d484.css",
-    "main.js": "/CamCrew/static/js/main.87ad1903.js",
+    "main.css": "/CamCrew/static/css/main.d3dfda95.css",
+    "main.js": "/CamCrew/static/js/main.0f6b55c9.js",
     "static/js/787.2775a639.chunk.js": "/CamCrew/static/js/787.2775a639.chunk.js",
     "static/media/wcu.svg": "/CamCrew/static/media/wcu.679deda53f3ab9b56a7f4183f448c552.svg",
     "static/media/Carousel1.png": "/CamCrew/static/media/Carousel1.bdfd84c178ccb95e2085.png",
@@ -38,12 +38,12 @@
     "static/media/Vector.svg": "/CamCrew/static/media/Vector.efe836ef08ffdcc531094469e37dd413.svg",
     "static/media/footericon1.svg": "/CamCrew/static/media/footericon1.f918437c08c9ae568a73ef442012d2ad.svg",
     "static/media/footericon3.svg": "/CamCrew/static/media/footericon3.fb6d43ff0995eed7295bfa4286212278.svg",
-    "main.e5c1d484.css.map": "/CamCrew/static/css/main.e5c1d484.css.map",
-    "main.87ad1903.js.map": "/CamCrew/static/js/main.87ad1903.js.map",
+    "main.d3dfda95.css.map": "/CamCrew/static/css/main.d3dfda95.css.map",
+    "main.0f6b55c9.js.map": "/CamCrew/static/js/main.0f6b55c9.js.map",
     "787.2775a639.chunk.js.map": "/CamCrew/static/js/787.2775a639.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5c1d484.css",
-    "static/js/main.87ad1903.js"
+    "static/css/main.d3dfda95.css",
+    "static/js/main.0f6b55c9.js"
   ]
 }

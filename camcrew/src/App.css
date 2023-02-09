@@ -1,17 +1,25 @@
 *{
   font-family: 'Montserrat', sans-serif;
 }
+body{
+  overflow-y: scroll;
+  
+}
+::-webkit-scrollbar {
+  display: none;
+}
 
 img{
   width:100%;
   height: 100%;
+  object-fit: fit;
 }
 /* Used for navbar */
 .Navbar_main {
     box-sizing: border-box;
     /* position: sticky !important; */
-    width: 98.9vw;
-    height: 100px;
+    width: 100vw;
+    height: 5.58vw;
     top: -1px;
     background: #F5F5F5 !important;
     border-bottom: 0.3px solid #ffffff;
@@ -26,13 +34,74 @@ img{
 
   .Navbarcon{
     width: 100vw;
-    margin-left: 25% !important;
-    /* border:red 1px solid   */
+    height: 5.58vw;
+    margin-left: 15vw !important;
+    background-color: #F5F5F5;
+    /* border: red 1px solid !important; */
   }
+  @media screen and (max-width:600px) {
+    .Navbarcon{
+      height: 5vh;
+      width: 100vw;
+      /* border: red 1px solid; */
+      margin-left: 0% !important;
+
+    }
+    .navbarcollapse{
+      background-color: #F5F5F5 ;
+      margin-top: 2.5vw;
+      background:linear-gradient(45deg,#964693 40%, #298CDD) !important ;
+      opacity: 0.9;
+    }
+    .Navbar_main {
+    width: 100vw;
+    height: 7vh;
+    }
+    .navbar-nav{
+      align-items: center !important;
+      color: #FFFFFF !important;
+    }
+    .logocontainer {
+      width: 25vw !important;
+      height: 5vh !important;
+      /* border: red 1px solid; */
+    }
+    /* .navbartoggle{
+      background-color:linear-gradient(45deg, #964693, #298CDD) !important ;
+      width:4vw !important;
+    } */
+    .navimg{
+      width:40vw !important;
+      /* border: blue 1px solid !important; */
+    }
+    .logoimage {
+      width: 100% !important;
+      height: 100% !important;
+      border-radius: 0%;
+    }
+    .nav-link{
+      color: #FFFFFF !important;
+    } 
+    .icons{
+      display: none !important;
+    }
+    .navbartoggle{
+      background:linear-gradient(45deg,#964693 40%, #298CDD) !important ;
+      width:10vw !important;
+      height: 0.5vw !important;
+      padding: 0.5vw 0.5vw 10vw 0.5vw!important;
+    }
+    .navbar-toggler-icon{
+      width:4vw !important;
+      height: 2vh !important;
+    }
+    
+  }
+ 
   
   .nav-link {
-    color: #000000 !important;
-    font-size: 1.2vw !important;
+    /* color: #000000 !important; */
+    font-size: 1.2em !important;
     font-weight: 600 !important;
     font-style: normal !important;
     line-height: 24px !important;
@@ -41,6 +110,7 @@ img{
   }
   a{
     text-decoration: none !important;
+    color: #000000 !important;
       }
   a:hover {
     color: #666666 !important;
@@ -76,19 +146,13 @@ img{
   .navbut{
     top:-40px
   }
-  .logo {
-    position: absolute !important;
-    left: 12.71%;
-    right: 86.83%;
-    top: 0.39%;
-    bottom: 98.85%;
-  }
+ 
   .logocontainer {
     width: 13.4vw;
     height: 3.3vw;
     position: absolute;
     left: 5%;
-    top: 15%;
+    top: 1vw;
   }
   .logoimage {
     width: 100%;
@@ -109,7 +173,7 @@ img{
   /* ........................... */
   /* Used for Home */
   .carouselimg{
-    width: 98.9vw !important;
+    width: 100vw !important;
     height: 49.79vw !important;
     position: relative;
   }
@@ -161,8 +225,7 @@ img{
     width:65.6vw;
     height: 11.13vw;
     /* border: red 1px solid; */
-    margin: auto;
-    margin-top: 41px;
+    margin: 3% auto 3% auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -216,17 +279,17 @@ img{
   }
   .homespan{
     font-size: 1.18vw;
-    /* line-height: 24.38px; */
+    /* line-height: 24.39px; */
     font-weight: 600;
     color: #4D509C;
   }
   /* ................... */
   /* Used for Services */
   .Service{
-    width:98.8vw;
+    width:100vw;
     height: 60vw;
     /* border: red 1px solid; */
-    margin: 2% auto auto auto;
+    margin: auto auto auto auto;
   }
   .Servicecontainer{
     display: flex;
@@ -235,9 +298,10 @@ img{
     gap: 0.64vw;
     margin-top: 2%;
     text-align: center;
+    /* border: blue 1px solid; */
   }
   .Servicetextcon{
-    width: 98vw;
+    width: 100vw;
     height: 4.5vw;
     /* border:1px solid red; */
     display: block; 
@@ -260,14 +324,14 @@ img{
   color: #FFFFFF;
 }
   hr{
-    border: #AD3AA9 2px solid !important;
-    width:5%;
+    border: #AD3AA9 0.12vw solid !important;
+    width:5vw;
     opacity: 1 !important;
-    margin: 0.5% auto auto auto !important;
+    margin: 0.9vw auto auto auto !important;
   }
 
   .Servicecon1,.Servicecon2,.Servicecon3,.Servicecon4{
-    width:24vw;
+    width:24.40vw;
     height: 17.5vw;
     position: relative;
 
@@ -283,7 +347,7 @@ img{
     left: 0;
     right: 0;
     height: 17.5vw;
-    width: 24vw;
+    width: 24.40vw;
     opacity: 0;
     transition: .5s ease;
     background-color: #000000;
@@ -328,14 +392,15 @@ img{
     flex-direction: row;
     gap:0.76vw;
     margin-top: -1%;
-    margin-left: 0.45%;
-    width:98vw;
+    /* margin-left: 0.45%; */
+    width:100vw;
+    /* border: red 1px solid; */
   }
   .Servicecon5{
     height: 35.5vw;
     /* border: 1px red solid; */
     /* width:460px */
-    width:24vw;
+    width:24.40vw;
     position: relative;
   }
   .content1{
@@ -355,14 +420,14 @@ img{
     left: 0;
     right: 0;
     height: 35.5vw;
-    width: 24vw;
+    width: 24.40vw;
     opacity: 0;
     transition: .5s ease;
     background-color: #000000;
   }
   .Servicecon6{
     height: 35.5vw;
-    width:24vw;
+    width:24.40vw;
     position: relative;
   }
   .Servicesubcontainer{
@@ -370,14 +435,14 @@ img{
     height: 11.78vw;
     display: flex;
     flex-direction: row;
-    width:24vw;
+    width:24.40vw;
   }
   .Servicesubcon1,.Servicesubcon2{
-    width:12vw;
+    width:12.2vw;
     /* border: red 1px solid; */
   }
   .Servicesubcontainer1{
-    width:24vw;
+    width:24.40vw;
     height: 11.78vw;
     /* border: red 1px solid; */
     margin-top: 1%;
@@ -385,10 +450,10 @@ img{
   /* ....................... */
   /* Used for About */
   .About{
-    width: 98.8vw;
+    width: 100vw;
     height: 63.26vw;
     /* border:1px solid red; */
-    margin:3% auto auto auto;
+    margin:auto auto 3% auto;
   
   }
   .Aboutcon1{
@@ -398,6 +463,7 @@ img{
     justify-content: space-between;
     gap: 2.34vw;
     background-color: #F7F7F7;
+    margin-bottom: 2vw;
   }
   .Aboutsubcon1{
     width: 54.48vw;
@@ -418,7 +484,7 @@ img{
     /* line-height: 1.27vw; */
     font-weight: 400;
     color: #666666;
-    margin-bottom: 1.3vw !important;
+    margin-bottom: 1.1vw !important;
   }
   .aboutspan{
     font-size: 0.94vw;
@@ -431,20 +497,19 @@ img{
     /* line-height: 49px; */
     font-weight: 600;
     color: #000000;
-    margin-top: 2%;
-    margin-bottom: 4%;
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
   }
   .Aboutbutton{
-    width: 12.59vw;
+    width: 12.6vw;
     height: 3.51vw;
     font-size: 1.05vw;
     color: #434242;
     background-color: white;
-    border: 10px solid;
     border-image-slice: 1;
-    border-width: 3px;
+    border-width: 0.17vw;
     border-image-source: linear-gradient(45deg, #964693, #298CDD); 
-    margin-top: 0px;
+    /* margin-top: 0px; */
   }
   
   .Aboutbutton:hover {
@@ -484,7 +549,7 @@ img{
   } */
 
 .Aboutbuttontext{
-  width:9.54vw;
+  width:10vw;
   height: 1.28;
   font-weight: 700;
   /* line-height: 22px; */
@@ -494,33 +559,53 @@ img{
 }
 .Aboutcon2{
   height: 26.36vw;
-  width: 98.8vw;
+  width: 100vw;
   /* border:red 1px solid; */
-  margin:2% auto auto auto;
+  margin:auto auto auto auto;
   background-color: #333333;
 }
 .Aboutsubcon3{
-  width:40%;
-  height: 5.74vw;
+  width:40vw;
+  height: 6vw;
   /* border: blue 1px solid; */
-  margin: 2% auto 1% auto;
+  margin: auto auto auto auto;
   text-align: center;
   padding: 10px;
+  text-size-adjust: inherit;
 }
 .Abouth1-1{
   font-size: 2.34vw;
   font-weight: 600;
   /* line-height: 48.76px; */
   color: #FFFFFF;
+  text-size-adjust: inherit;
 }
 .Aboutsubcon4{
   width:68.71vw;
   height: 11.71vw;
   /* border: red 1px solid; */
-  margin: 4% auto auto 10%;
+  margin: 4vw auto auto 10vw;
   display: flex;
   justify-content: space-between;
   gap: 2.34vw;
+}
+@media screen and (max-width:600px) {
+  .Aboutsubcon4{
+    margin-top: 5vw !important;
+  }
+  .Aboutsub4-1-2{
+    width: 2.4vw;
+    height: 2.4vw;
+    /* border: blue 1px solid; */
+    /* margin: auto; */
+    object-fit: cover;
+  }
+  .aboutsmallimg{
+    margin-top: -4vw;
+  }
+  .Abouthrline{
+    margin-top: 1vw !important;
+  }
 }
 .Aboutsubcon4-1{
   width:18.16vw;
@@ -536,18 +621,18 @@ img{
   gap:0.17vw;
 }
 .Abouthrline{
-    border: #FFFFFF 1.5px solid !important;
+    border: #FFFFFF 0.08vw solid !important;
     width:5.21vw;
     opacity: 1 !important;
-    margin-left: 0% !important;
-    margin-top: 2% !important;
-    /* margin:  !important; */
+    margin-left: 0vw !important;
+    margin-top: 2vw;
 }
 .Aboutsub4-1-2{
   width: 2.4vw;
   height: 2.4vw;
   /* border: blue 1px solid; */
   margin: auto;
+  object-fit: cover;
 }
 .Aboutsub4-1-3{
   width:13.5vw;
@@ -598,19 +683,15 @@ img{
 /* ................. */
 /* Form side button */
 .Formsidebutton{
+  background-color: transparent;
+  border: none;
+  position: relative;
   width:2.4vw;
   height: 22.67vw;
-  border: 1px solid #AD3AA9;
-  border-radius: 10px 0px 0px 10px;
-  background-color: #4D509C;
-  /* opacity: 0.5; */
-  /* position: relative; */
 }
 
 .Formsendbutton{
-  width:9.84vw !important;
-  height:2.34vw !important;
-  border-radius: 0% !important;
+  
   background: linear-gradient(45deg,  #964693, #298CDD) !important;
   margin-top: 2vw;
 }
@@ -631,16 +712,27 @@ button:active{
   width: 17.57vw;
   height: 1.75vw;
   color: #ffffff;
-  z-index: 9;
   position: absolute;
-  right: -310%;
+  z-index: 99;
+  top:45%;
+  right: -300%;
 }
 .formsidebuttoncon{
+  width:2.4vw;
+  height: 22.67vw;
+  border: 1px solid #AD3AA9;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #4D509C;
   position: fixed;
   top:25%;
   right: 0px;
-  color: #ffff;
   z-index: 9;
+   /* z-index: 9; */
+}
+@media screen and (max-width:600px) {
+  .formsidebuttoncon{
+    display: none;
+  }
 }
 .popover-header, .popover-body{
   width:32.27vw !important;
@@ -704,7 +796,7 @@ button:active{
 /* ............... */
 /* Used for Footer */
 .Footer{
-  Width:98.8vw;
+  Width:100vw;
   height: 37.49vw;
   /* border: red 1px solid; */
 }
@@ -829,9 +921,8 @@ button:active{
   font-size: 1.05vw;
   color: #ffffff;
   background-color: transparent;
-  border: 10px solid;
   border-image-slice: 1;
-  border-width: 3px;
+  border-width: 0.17vw;
   border-image-source: linear-gradient(45deg, #964693, #298CDD); 
   /* margin-top: 4%;   */
 }
@@ -842,6 +933,7 @@ button:active{
   /* line-height: 22px; */
   font-size: 1.05vw;
   margin: auto;
+  color: #FFFFFF;
 }
 .Footerbutton:hover{
   background-image:linear-gradient(45deg, #964693, #298CDD) !important; 
@@ -961,11 +1053,31 @@ margin-top: -27%;
   width: 98.8vw;
   /* background-color: #964693; */
 }
+@media screen and (max-width:600px) {
+  .Work{
+    height: 28vh;
+  }
+  .workdropdowncon{
+    width:38vw;
+    height: 20vh !important;
+  }
+  .accordion-button{
+    height: 1vh !important;
+  }
+  .accordion-item{
+    height: 2vh !important;
+  }
+  .accordion-button::after{
+    width:2vw !important;
+    height: 2vw !important;
+    background-size: cover !important;
+  }
+}
 .Worktextcon{
   width:34.8vw;
   height: 2.87vw;
   margin: auto;
-  padding: 2% 0 1% 0;
+  padding: 2vw 0 1vw 0;
 }
 .Worktext1{
   font-size: 2.34vw;
@@ -1009,6 +1121,14 @@ margin-top: -27%;
   font-size:0.93vw !important;
   font-weight: 400 !important;
   color: #434242 !important;
+}
+.form-select{
+  background-size: 1vw !important;
+}
+.AccordApplink{
+  color: #AD3AA9 !important;
+  font-size: 1.17vw !important;
+  font-weight: 700 !important;
 }
 .form-control[type=file]{
   font-size:0.93vw !important;
@@ -1068,12 +1188,12 @@ margin-top: -27%;
   font-size: 1.17vw !important;
   font-weight: 700 !important;
   color: #434242 !important;
-  height: 3vw !important;
+  height: 3vw;
 }
 .accordion{
   --bs-accordion-border-color:#4D509C !important;
-  --bs-accordion-border-width: 1.5px !important;
-  border-bottom: 1.5px !important;
+  --bs-accordion-border-width: 0.087vw !important;
+  border-bottom: 0.087vw !important;
   --bs-accordion-btn-focus-border-color:red !important;
   --bs-border-color:white !important;
   --bs-accordion-active-bg: #4D509C !important;
@@ -1149,7 +1269,7 @@ margin-top: -27%;
 /* Used for faq */
 .Faqhead{
  height: 7.16vw;
- width: 98.9vw;
+ width: 100vw;
  background-color: #F3F3F3;
  text-align: center;
  padding: 0.87vw;
@@ -1263,4 +1383,18 @@ input[type=number]::-webkit-outer-spin-button
 { 
   -webkit-appearance: none; 
   margin: 0; 
+}
+
+.top-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  width: 2vw;
+  color:#AD3AA9 ;
+  position: fixed;
+  bottom: 5rem;
+  right: 2rem;
+  z-index: 999;
+  cursor: pointer;
 }

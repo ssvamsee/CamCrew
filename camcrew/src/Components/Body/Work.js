@@ -200,9 +200,9 @@ Ability to work well in a team environment</p>
       <hr className="Accordionhr"></hr>
 
       <Accordion.Item eventKey="5">
-        <Accordion.Header>Others</Accordion.Header>
+        <Accordion.Header><h1 className='AccordApplink'>Application Link</h1></Accordion.Header>
         <Accordion.Body>
-        <h1 className='Accordionhead'>For More Details Click Below:</h1>
+        <h1 className='Accordionhead'>To Apply For The Suitable Role From Above</h1>
         {/* <div class="wrapper"> */}
         <a  className="formlink" href=" https://forms.gle/W6e3bzkmSg9rdRDx8" target="blank"><span>Click Me!</span></a>
         {/* </div> */}
