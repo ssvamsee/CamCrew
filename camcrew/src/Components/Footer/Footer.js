@@ -70,7 +70,7 @@ function Footer(){
             <div className="Footer3">
                 <div className='Footer3-1con'>
                     <h1 className='Footer3text'>ANDHRA PRADESH</h1>
-                    <pre className='Footer3num'>+91 9440 631668</pre>
+                    <pre className='Footer3num'>+91 90003 93326</pre>
                 </div>
                 <div className='Footer3-1con'>
                     <h1 className='Footer3text'>TELANGANA</h1>
