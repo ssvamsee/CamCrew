@@ -69,16 +69,20 @@ function Footer(){
             </div>
             <div className="Footer3">
                 <div className='Footer3-1con'>
-                    <h1 className='Footer3text'>ANDHRA PRADESH</h1>
-                    <pre className='Footer3num'>+91 90003 93326</pre>
+                    <h1 className='Footer3text'>TELANGANA</h1>
+                    <pre className='Footer3num'>+91 98854 73939</pre>
                 </div>
                 <div className='Footer3-1con'>
-                    <h1 className='Footer3text'>TELANGANA</h1>
-                    <pre className='Footer3num'>+91 90006 94911</pre>
+                    <h1 className='Footer3text'>ANDHRA PRADESH</h1>
+                    <pre className='Footer3num'>+91 99498 60503</pre>
                 </div>
                 <div className='Footer3-1con'>
                     <h1 className='Footer3text'>BENGULURU</h1>
-                    <pre className='Footer3num'>+91 91770 98908</pre>
+                    <pre className='Footer3num'>+91 99498 60503</pre>
+                </div>
+                <div className='Footer3-1con'>
+                    <h1 className='Footer3text'>CHENNAI</h1>
+                    <pre className='Footer3num'>+91 99498 60503</pre>
                 </div>
             </div>
             <div className="Footer4">
