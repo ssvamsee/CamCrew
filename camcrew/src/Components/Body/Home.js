@@ -7,7 +7,6 @@ import img4 from '../../Assets/azadi.svg';
 import About from './About';
 import Services from './Services';
 import Forms from './Form';
-import Footer from '../Footer/Footer';
 import Teamwork from './Teamwork';
 import Work from './Work';
 import { Helmet } from 'react-helmet';
