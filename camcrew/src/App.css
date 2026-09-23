@@ -1004,6 +1004,14 @@ button:active{
   margin: auto;
   /* border:pink 1px solid; */
 }
+.noImage{
+  margin: 0 auto 10px;
+  width: 180px;
+  height: 180px;
+  border: 5px solid #f6f1f1;
+  border-radius: 50%;
+  box-shadow: 4px 8px 4px 0px rgba(0, 0, 0, 0.15);
+}
 .teamworksubtext{
   font-weight: 600;
   color: #333333;
@@ -1018,7 +1026,6 @@ button:active{
   height: 31vw;
 }
 .WCUimgcon{
-  /* position: relative; */
   text-align: center;
 }
 .wcutext1{

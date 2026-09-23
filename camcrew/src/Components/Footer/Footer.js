@@ -55,7 +55,6 @@ function Footer(){
                     </div>
                     <div className='Footer2-1con'>
                         <div className='Footertextcon1'>
-                        {/* <Nav.Link  as={Link} to="/Contact" eventKey="1"><h1 className='Footerletstext'>Let's Talk?</h1></Nav.Link> */}
                         <NavLink to="/Contact"><h1 className='Footerletstext'>Let's Talk?</h1></NavLink>
                         </div>
         
