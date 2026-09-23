@@ -1005,12 +1005,13 @@ button:active{
   /* border:pink 1px solid; */
 }
 .noImage{
-  margin: 0 auto 10px;
-  width: 180px;
-  height: 180px;
-  border: 5px solid #f6f1f1;
+  margin: -5px;
+  border: 5px solid #efeeef;
   border-radius: 50%;
-  box-shadow: 4px 8px 4px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 4px 7px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.margin{
+  margin-bottom: 5px;
 }
 .teamworksubtext{
   font-weight: 600;
