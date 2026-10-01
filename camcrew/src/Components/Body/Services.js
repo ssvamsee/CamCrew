@@ -66,7 +66,7 @@ function Services(){
                         <div class="overlay">
                                 <div class="content">
                                     <h1 className='servicehoverh1'>Live Streaming Service</h1>
-                                    <p className='servicehoverp'> We are offering a professional live streaming service that provides high-quality video production and streaming solutions for a variety of events and platforms. Whether it's a corporate event, concert, or online class, CamCrew.in has the equipment and expertise to make your live stream a success.</p>
+                                    <p className='servicehoverp'> We are offering a professional live streaming service that provides high-quality video production and streaming solutions for a variety of events and platforms. Whether it's a corporate event, concert, or online class, CamCrew.net has the equipment and expertise to make your live stream a success.</p>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ function Services(){
                         <div class="overlay1">
                                 <div class="content1">
                                     <h1 className='servicehoverh1'>Live Streaming Service</h1>
-                                    <p className='servicehoverp'> We are offering a professional live streaming service that provides high-quality video production and streaming solutions for a variety of events and platforms. Whether it's a corporate event, concert, or online class, CamCrew.in has the equipment and expertise to make your live stream a success.</p>
+                                    <p className='servicehoverp'> We are offering a professional live streaming service that provides high-quality video production and streaming solutions for a variety of events and platforms. Whether it's a corporate event, concert, or online class, CamCrew.net has the equipment and expertise to make your live stream a success.</p>
                                 </div>
                             </div>
                     </div>

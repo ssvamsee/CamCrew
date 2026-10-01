@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import img1 from '../../Assets/Carousel1.png';
 import img2 from '../../Assets/Carousel2.png';
 import img3 from '../../Assets/Carousel3.png';
-import img4 from '../../Assets/azadi.svg';
+// import img4 from '../../Assets/azadi.svg';
 
 import About from './About';
 import Services from './Services';
@@ -30,9 +30,9 @@ function Home() {
         <Carousel.Caption className='CarouselCaptioncon1'>
           <h5 className="CarouselCaption1">We combine design, thinking and technical</h5>
         </Carousel.Caption>
-        <div className='azadi'>
+        {/* <div className='azadi'>
         <img src={img4} alt="azadi"/>
-        </div>
+        </div> */}
       </Carousel.Item>
       <Carousel.Item interval={2000}>
         <img
@@ -43,9 +43,9 @@ function Home() {
         <Carousel.Caption className='CarouselCaptioncon2'>
           <h5 className="CarouselCaption2">We always stay on the cutting edge of digital</h5>
         </Carousel.Caption>
-        <div className='azadi'>
+        {/* <div className='azadi'>
         <img src={img4} alt="azadi"/>
-        </div>
+        </div> */}
       </Carousel.Item>
       <Carousel.Item interval={2000}>
         <img
@@ -56,9 +56,9 @@ function Home() {
         <Carousel.Caption className='CarouselCaptioncon2'>
           <h5 className="CarouselCaption2">We crafts stunning and intuitive stuff</h5>
         </Carousel.Caption>
-        <div className='azadi'>
+        {/* <div className='azadi'>
         <img src={img4} alt="azadi"/>
-        </div>
+        </div> */}
       </Carousel.Item>
     </Carousel>
     <div className='HomeItemsContainer'>
@@ -67,7 +67,7 @@ function Home() {
             <div className='homesubcon1'><h1 className='homenumber'>01.</h1></div>
             <div className='homesubcon2'><p className='hometext'>On Demand Marketplace </p></div>
         </div>
-        <div className='homecon-1_2'><p className='hometext1'>Camcrew.in is a one-stop-shop for all your photography needs, offering a wide range of services for any and every occasion. From weddings to corporate events, Camcrew.in has the perfect team to capture all of your special moments.</p></div>
+        <div className='homecon-1_2'><p className='hometext1'>Camcrew.net is a one-stop-shop for all your photography needs, offering a wide range of services for any and every occasion. From weddings to corporate events, Camcrew.net has the perfect team to capture all of your special moments.</p></div>
       </div>
       <div className='Homecon'>
       

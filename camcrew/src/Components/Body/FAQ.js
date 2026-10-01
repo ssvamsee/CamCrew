@@ -35,7 +35,7 @@ special moments in life, that's why we offer the most affordable photography ser
       <Accordion.Item eventKey="2" className='faqaccordionitemcon'>
         <Accordion.Header className='faqaccordionhead'>How do I book your services?</Accordion.Header>
         <Accordion.Body className="faqaccordionbody">
-        By clicking "Make an Enquiry" on our website, you can easily book your photography service with CAMcrew.in. Our simple and straightforward booking process makes it easy for you to schedule your session, and secure your spot on our calendar.
+        By clicking "Make an Enquiry" on our website, you can easily book your photography service with CAMcrew.net. Our simple and straightforward booking process makes it easy for you to schedule your session, and secure your spot on our calendar.
 
 When you click on "Make an Enquiry", you will be taken to a form where you can provide us with your contact information and details about your photography needs. Our team will then review your request and get back to you with a quote and available dates for your session.
 
@@ -47,7 +47,7 @@ Making an enquiry with us is easy, secure and fast, you can do it from the comfo
       <Accordion.Item eventKey="3" className='faqaccordionitemcon'>
         <Accordion.Header className='faqaccordionhead'>How long will it take to receive my photos and Videos after the shoot?</Accordion.Header>
         <Accordion.Body className="faqaccordionbody">
-        When you book your photography service with CAMcrew.in, you can expect to receive your final photos and Video footage within 14 days after the shoot. We understand that you're eager to see your final images and we strive to deliver them to you as quickly as possible.
+        When you book your photography service with CAMcrew.net, you can expect to receive your final photos and Video footage within 14 days after the shoot. We understand that you're eager to see your final images and we strive to deliver them to you as quickly as possible.
 
 Once the shoot is complete, our team of professional editors will carefully select the best shots and enhance them to perfection. We take the time to ensure that each image is of the highest quality and meets our strict standards before they are delivered to you.
 
@@ -67,7 +67,7 @@ Once you have approved the final images, we will deliver them to you via a digit
       <Accordion.Item eventKey="5" className='faqaccordionitemcon'>
         <Accordion.Header className='faqaccordionhead'>Do you offer any special packages or discounts?</Accordion.Header>
         <Accordion.Body className="faqaccordionbody">
-        Camcrew.in  offers special discounts on photography services for non-profit organizations (NGOs) and non-governmental organizations, including reduced rate on our photography packages and waived sitting fee for certain types of shoots. To take advantage of our NGO discount, simply contact us and let us know that you are a registered NGO, and we will provide you with a special discount code to use when booking your photography service.
+        Camcrew.net  offers special discounts on photography services for non-profit organizations (NGOs) and non-governmental organizations, including reduced rate on our photography packages and waived sitting fee for certain types of shoots. To take advantage of our NGO discount, simply contact us and let us know that you are a registered NGO, and we will provide you with a special discount code to use when booking your photography service.
 
         </Accordion.Body>
       </Accordion.Item>
@@ -123,13 +123,13 @@ Our videography services include a variety of options such as pre-production pla
       <Accordion.Item eventKey="13" className='faqaccordionitemcon'>
         <Accordion.Header className='faqaccordionhead'>Do you offer any lighting Services ?</Accordion.Header>
         <Accordion.Body className="faqaccordionbody">
-        CamCrew.in provides professional studio lighting services for Blue/green screen studios and YouTubers Whether you're creating a tutorial, a product review, or a vlog, we have the expertise to bring your vision to life. Our team of lighting specialists will help you create the right mood, highlight the right features, and produce a high-quality video that will make an impact.
+        CamCrew.net provides professional studio lighting services for Blue/green screen studios and YouTubers Whether you're creating a tutorial, a product review, or a vlog, we have the expertise to bring your vision to life. Our team of lighting specialists will help you create the right mood, highlight the right features, and produce a high-quality video that will make an impact.
 
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
     <div className='faqfootertextcon'>
-        <h1 className='faqfootertext'>Could not find what you were looking for write us at <span type="email" className='faqfooterspan'><a href = "mailto: support@camcrew.in">CamCrew</a></span></h1>
+        <h1 className='faqfootertext'>Could not find what you were looking for write us at <span type="email" className='faqfooterspan'><a href = "mailto: support@camcrew.net">CamCrew</a></span></h1>
     </div>
                 </div>
             </div>

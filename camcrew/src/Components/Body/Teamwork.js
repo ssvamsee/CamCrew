@@ -70,7 +70,7 @@ function Teamwork(){
                             <h1 className="twcontext1">We deliver 100% and provide instant response</h1>
                         </div>
                         <div className='twcon2'>
-                            <p className="twcontext2">We the team at Camcrew.in is made up of experienced professionals who are dedicated to providing the best possible service to our clients. We understand the importance of having the right equipment for the job, and our in-house editors ensure the highest quality and consistency of our work. We are always on hand to provide expert advice and assistance.
+                            <p className="twcontext2">We the team at Camcrew.net is made up of experienced professionals who are dedicated to providing the best possible service to our clients. We understand the importance of having the right equipment for the job, and our in-house editors ensure the highest quality and consistency of our work. We are always on hand to provide expert advice and assistance.
 </p>
                         </div>
 
