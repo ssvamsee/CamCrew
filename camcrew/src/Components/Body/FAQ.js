@@ -12,7 +12,7 @@ function Faq(){
       </Helmet>
             <div>
                 <div className="Faqhead">
-                   <div className="faqspanheadcon"> <span className="faqspanhead">FAQ</span></div>
+                   {/* <div className="faqspanheadcon"> <span className="faqspanhead">FAQ</span></div> */}
                     <div className="faqh1headcon"><h1 className="faqh1head">Need answers? Find them here... </h1></div>
                 </div>
                 <div className='faqaccordioncon'>

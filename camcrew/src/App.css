@@ -355,39 +355,39 @@ img{
   }
   .HomeItemsContainer{
     width:65.6vw;
-    height: 11.13vw;
+    /* height: 11.13vw; */
     /* border: red 1px solid; */
-    margin: 3% auto 3% auto;
+    margin: 3% auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
   .Homecon{
     width: 19.3vw;
-    height: 11.13vw;
+    /* height: 11.13vw; */
     /* border: red 1px solid; */
   }
   .homecon-1_1{
     width: 13.18vw;
-    height: 3.46vw;
+    /* height: 3.46vw; */
     /* border: violet 1px solid; */
     display: flex;
     justify-content: space-between;
   }
   .homesubcon1{
     width:3.69vw;
-    height: 3.45vw;
+    /* height: 3.45vw; */
     /* border: blue 1px solid; */
   }
   .homesubcon2{
     width:7.67vw;
-    height: 2.8vw;
+    /* height: 2.8vw; */
     /* border: blue 1px solid; */
     margin: auto;
   }
   .homecon-1_2{
     width:19.3vw;
-    height: 6.6vw;
+    /* height: 6.6vw; */
     /* border:#90213b 1px solid; */
     margin: 0.87vw auto auto auto;
   }
@@ -585,18 +585,18 @@ img{
     height: auto;
     min-height: 63.26vw;
     /* border:1px solid red; */
-    margin:auto auto 3% auto;
+    margin:auto auto 4% auto;
   
   }
   .Aboutcon1{
     height: auto;
-    min-height: 35.15vw;
+    min-height: 30.15vw;
     /* border: #4D509C solid 1px; */
     display: flex;
     justify-content: space-between;
     gap: 2.34vw;
     background-color: #F7F7F7;
-    margin-bottom: 2vw;
+    margin: 2vw auto;
   }
   .Aboutsubcon1{
     width: 54.48vw;
@@ -650,6 +650,80 @@ img{
     align-items: center;
     justify-content: center;
     padding: 0 0.5vw;
+  }
+
+  @media screen and (max-width: 768px) {
+    .HomeItemsContainer{
+      flex-direction: column;
+      font-size: 0.5rem !important;
+    }
+    .Homecon{
+      width: 100%  ;
+      height: auto;
+    }
+    .homecon-1_1{
+      width: 100%;
+      margin: 1vw 0;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 0.75rem;
+    }
+    .homesubcon1{
+      width: auto;
+      flex: 0 0 auto;
+      margin: 0;
+    }
+    .homesubcon2{
+      width: auto;
+      flex: 1 1 auto;
+      height: auto;
+      margin: 0;
+    }
+    .homecon-1_2{
+      width:100%;
+      height: auto;
+    }
+    .HomeItemsContainer .homenumber{
+      font-size: 1.35rem !important;
+      margin: 0 !important;
+    }
+    .HomeItemsContainer .hometext{
+      font-size: 0.81rem !important;
+      line-height: 1.08rem !important;
+      margin: 0 !important;
+    }
+    .HomeItemsContainer .hometext1{
+      font-size: 0.72rem !important;
+    }
+    .HomeItemsContainer .homespan{
+      font-size: 0.81rem !important;
+    }
+    .Aboutcon1{
+      flex-direction: column;
+      gap: 0.5vw;
+    }
+    .Aboutsubcon1{
+      width: 100% !important;
+    }
+    .Aboutsubcon2{
+      width: 90% !important;
+      margin: 0 auto !important;
+    }
+    .Abouttextarea{
+      width: 100% !important;
+      margin: 0 auto !important;
+    }
+    .aboutspan{
+      font-size: 1.5vw !important;
+    }
+    .Aboutspan{
+      font-size: 1.5vw !important;
+    }
+    .Servicetextcon{
+      margin: 4vw auto 0 !important;
+    }
   }
   @media screen and (max-width: 462px) {
     .Aboutbutton{
@@ -937,6 +1011,7 @@ button:active{
 @media screen and (max-width: 594px) {
   .formsidebuttoncon{
     display: none;
+    
     position: fixed;
     right: 0;
     top: 25%;
@@ -970,7 +1045,7 @@ button:active{
   /* border: red 1px solid !important; */
 }
 .popoverbody{
-  height: 25vw !important;
+  height: auto !important;
   /* border: yellow 1px solid !important; */
 }
 
@@ -1002,7 +1077,7 @@ button:active{
   font-style: normal;
 }
 .popoverp{
-  font-size: 0.76vw;
+  font-size: clamp(0.875rem, 0.76vw, 1rem);
   margin-left: 3%;
   margin-bottom: 0%;
   color: #5B5B5B;
@@ -1063,6 +1138,67 @@ button:active{
 .Footer1-1 .footersub4-1-3{
   flex-shrink: 0;
 }
+
+/* Responsive: statistics / counter row (180+ clients, 90K+ photos, 500+ projects) */
+@media screen and (max-width: 768px) {
+  .Footer{
+    height: auto;
+  }
+  .Footer1{
+    height: auto;
+    padding: clamp(16px, 4vw, 32px) clamp(14px, 4vw, 36px);
+  }
+  .Footer1-1{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: clamp(12px, 3.5vw, 24px);
+    margin: 0 auto;
+  }
+  .Footer1-1 .Aboutsub4-1-1{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: clamp(10px, 3vw, 20px);
+  }
+  .Footer1-1 .Aboutsub4-1-2{
+    width: clamp(26px, 6vw, 40px);
+    height: clamp(26px, 6vw, 40px);
+    flex: 0 0 auto;
+    margin: 0;
+  }
+  .Footer1-1 .Aboutsub4-1-3,
+  .Footer1-1 .footersub4-1-3{
+    width: auto;
+    min-width: 0;
+    height: auto;
+    flex: 1 1 auto;
+    margin: 0;
+  }
+  .Footer1-1 .Aboutsub4h1{
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+  .Footer1-1 .hometext{
+    font-size: 1rem;
+    line-height: 1.3;
+    margin: 0;
+  }
+  .Footercountspan{
+    font-size: clamp(1rem, 4.5vw, 1.5rem);
+    line-height: 1.15;
+  }
+  .Footer1-1 .Footercountp{
+    font-size: clamp(0.75rem, 3vw, 1.05rem);
+    line-height: 1.3;
+    margin-top: 2px;
+  }
+}
+
 .Footer2{
   height: 16.4vw;
   background: #1B1B1B;
@@ -1806,39 +1942,53 @@ margin-bottom: 2.63vw;
 /* .............. */
 /* Used for Contact */
 .contactformcon{
-  width:40vw;
-  height: 55vw;
+  width: clamp(320px, 40vw, 640px);
+  height: auto;
+  padding-bottom: clamp(1.5rem, 10vw, 7rem);
   margin: 2% auto auto auto;
 }
 .contactformheadcon{
   text-align: center;
-  margin-bottom: 2vw;
+  margin-bottom: clamp(1rem, 2vw, 2rem);
 }
 .contactform{
-  margin-bottom: 1.5vw;
+  margin-bottom: clamp(0.85rem, 1.5vw, 1.35rem);
 }
 .contactletstalk{
-  font-size: 1.46vw;
+  font-size: clamp(1.3rem, 1.46vw, 1.75rem);
   font-weight: 600;
   color: #AD3AA9;
 }
+.contactformheadcon .popoverp{
+  margin-left: 0;
+}
+.contactformcon .form-label{
+  font-size: clamp(0.85rem, 0.93vw, 1.05rem) !important;
+  font-weight: 600 !important;
+}
 .contactfortext{
-  height: 3vw !important;
-  font-size: 1.2vw !important;
+  height: clamp(2.125rem, 3vw, 3rem) !important;
+  font-size: clamp(1rem, 1.2vw, 1.25rem) !important;
   text-transform: uppercase;
 }
 .contactfortextarea{
-  height: 5vw !important;
+  height: clamp(4.5rem, 5vw, 9rem) !important;
 }
 .contactsendbutton{
-  width:40vw !important;
-  height:2.34vw !important;
+  width:100% !important;
+  height: clamp(2.125rem, 2.34vw, 3rem) !important;
   border-radius: 0% !important;
   background: linear-gradient(45deg,  #964693, #298CDD) !important;
-  margin-top: 2vw;
-  font-size: 1.28 !important;
+  margin-top: clamp(1rem, 2vw, 1.75rem);
+  font-size: 1rem !important;
   font-weight: 700 !important;
   transition: all .35sec;
+}
+@media screen and (max-width: 480px){
+  .contactformcon{
+    width: 92%;
+    margin: 6% auto 8% auto;
+  }
 }
 .contactsendbutton:after{
   background: linear-gradient(45deg,#298CDD,  #964693) !important;

@@ -1,5 +1,5 @@
 
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import Button from 'react-bootstrap/Button';
 import Overlay from 'react-bootstrap/Overlay';
 import Popover from 'react-bootstrap/Popover';
@@ -50,8 +50,8 @@ function Forms() {
   return (
     <div ref={ref}>
         <div className="formsidebuttoncon">
-      <button className="Formsidebutton" onClick={handleClick}><p className="text">MAKE AN ENQUIRY!</p></button>
-      </div>
+          <button className="Formsidebutton" onClick={handleClick}><p className="text">MAKE AN ENQUIRY!</p></button>
+        </div>
       <Overlay
         show={show}
         target={target}

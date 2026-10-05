@@ -69,8 +69,8 @@ function Home() {
         </div>
         <div className='homecon-1_2'><p className='hometext1'>Camcrew.net is a one-stop-shop for all your photography needs, offering a wide range of services for any and every occasion. From weddings to corporate events, Camcrew.net has the perfect team to capture all of your special moments.</p></div>
       </div>
+
       <div className='Homecon'>
-      
         <div className='homecon-1_1'>
             <div className='homesubcon1'><h1 className='homenumber'>02.</h1></div>
             <div className='homesubcon2'><p className='hometext'><span className='homespan'>500+ </span>Professionals.  </p></div>
@@ -78,6 +78,7 @@ function Home() {
         <div className='homecon-1_2'><p className='hometext1'>We are a team of over 500+ Professionals, all with a wide range of skills and expertise  to help bring your visual projects to life. Our  team can handle any type of project, from corporate event photography to full-scale film production.</p></div>
      
       </div>
+      
       <div className='Homecon'>
         <div className='homecon-1_1'>
             <div className='homesubcon1'><h1 className='homenumber'>03.</h1></div>

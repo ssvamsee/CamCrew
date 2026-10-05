@@ -7,17 +7,15 @@ import img4 from '../../Assets/abouticon3.svg';
 import img5 from '../../Assets/abouticon4.svg';
 import img6 from '../../Assets/abouticon5.svg';
 
-
-
 function About(){
     return(
         <>
          <Helmet>
-      <title>CamCrew | About</title>
-      <meta 
-      name="description"
-      content="Get info About Camcrew"/>
-      </Helmet>
+            <title>CamCrew | About</title>
+            <meta 
+            name="description"
+            content="Get info About Camcrew"/>
+        </Helmet>
         <div className="About">
             <div className="Aboutcon1">
                 <div className="Aboutsubcon1">
