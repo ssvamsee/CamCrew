@@ -14,28 +14,28 @@ function Footer(){
             <div className="Footer1">
                 <div className="Footer1-1">
                     <div className="Aboutsub4-1-1">
-                            <div className="Aboutsub4-1-2">
-                                    <img src={img1} alt="icon"/>
-                            </div>
-                            <div className="Aboutsub4-1-3">
-                                <h1 className='Aboutsub4h1'><p className='hometext'><span className='Footercountspan'>180+ </span><p className='Footercountp'>HAPPY CLIENTS </p> </p></h1>
-                            </div>
+                        <div className="Aboutsub4-1-2">
+                                <img src={img1} alt="icon"/>
+                        </div>
+                        <div className="Aboutsub4-1-3">
+                            <h1 className='Aboutsub4h1'><p className='hometext'><span className='Footercountspan'>180+ </span><p className='Footercountp'>HAPPY CLIENTS </p> </p></h1>
+                        </div>
                     </div>
                     <div className="Aboutsub4-1-1">
-                            <div className="Aboutsub4-1-2">
-                                    <img src={img2} alt="icon"/>
-                            </div>
-                            <div className="Aboutsub4-1-3">
-                                <h1 className='Aboutsub4h1'><p className='hometext'><span className='Footercountspan'>90K+ </span><p className='Footercountp'>PHOTOS CAPTURED </p>  </p></h1>
-                            </div>
+                        <div className="Aboutsub4-1-2">
+                                <img src={img2} alt="icon"/>
+                        </div>
+                        <div className="Aboutsub4-1-3">
+                            <h1 className='Aboutsub4h1'><p className='hometext'><span className='Footercountspan'>90K+ </span><p className='Footercountp'>PHOTOS CAPTURED </p>  </p></h1>
+                        </div>
                     </div>
                     <div className="Aboutsub4-1-1">
-                            <div className="Aboutsub4-1-2">
-                                    <img src={img3} alt="icon"/>
-                            </div>
-                            <div className="footersub4-1-3">
-                                <h1 className='Aboutsub4h1'><p className='hometext'><span className='Footercountspan'>500+ </span><p className='Footercountp'>PROJECTS COMPLETED </p>  </p></h1>
-                            </div>
+                        <div className="Aboutsub4-1-2">
+                                <img src={img3} alt="icon"/>
+                        </div>
+                        <div className="footersub4-1-3">
+                            <h1 className='Aboutsub4h1'><p className='hometext'><span className='Footercountspan'>500+ </span><p className='Footercountp'>PROJECTS COMPLETED </p>  </p></h1>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,6 @@ function Footer(){
                 </div>
             </div>
         </div>
-       
         </>
     );
 }

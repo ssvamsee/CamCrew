@@ -1,11 +1,10 @@
 import { BrowserRouter } from "react-router-dom";
 import NavBar from "./Components/Navbar/Navbar";
-import "./App.css";
 import Footer from "./Components/Footer/Footer";
 import { Helmet } from "react-helmet";
 import GoToTopButton from "./Components/Body/GoToTopButton";
-// import { ChatProvider } from './contexts/chat.context';
-// import React from 'react';
+import WhatsAppButton from "./Components/Body/WhatsAppButton";
+import "./App.css";
 
 function App() {
   return (
@@ -29,6 +28,7 @@ function App() {
       </div>
     </BrowserRouter>
     <GoToTopButton/> 
+    <WhatsAppButton/>
     </>
   );
 }
