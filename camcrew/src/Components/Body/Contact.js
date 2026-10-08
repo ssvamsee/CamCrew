@@ -1,8 +1,8 @@
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button';
-import axios from 'axios';
+// import axios from 'axios';
 import { useState } from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import GoToTop from '../Footer/GoToTop';
 
 
@@ -14,28 +14,71 @@ function Contact(){
   const[budget,setBudget]=useState('');
   const[message,setMessage]=useState('');
 
-  const handleSubmit=(e)=>{
+//   const handleSubmit=(e)=>{
+//     e.preventDefault();
+//     // console.log(name,email,mobile,subject,budget,message);
+//     const data={
+//       Name:name,
+//       Email:email,
+//       MobileNumber:mobile,
+//       Subject:subject,
+//       Budget:budget,
+//       Message:message,
+//     }
+//     axios.post('https://sheet.best/api/sheets/c6a1efb8-0fab-400a-b49c-187a50123976',data).then((response)=>{
+//       console.log(response);
+//       // To Clear text fields
+//       setName('');
+//       setEmail('');
+//       setMobile('');
+//       setSubject('');
+//       setBudget('');
+//       setMessage('');
+//     })
+//   }
+
+    const handleSubmit = async (e) => {
     e.preventDefault();
-    // console.log(name,email,mobile,subject,budget,message);
-    const data={
-      Name:name,
-      Email:email,
-      MobileNumber:mobile,
-      Subject:subject,
-      Budget:budget,
-      Message:message,
+
+    const data = {
+        name,
+        email,
+        mobile,
+        subject,
+        budget,
+        message,
+        _replyto: email,
+    };
+
+    try {
+        const response = await fetch(
+            'https://formboost.app/f/9icdylii',
+            {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            }
+        );
+
+        if (!response.ok) {
+            throw new Error('Failed to submit form');
+        }
+
+        setName('');
+        setEmail('');
+        setMobile('');
+        setSubject('');
+        setBudget('');
+        setMessage('');
+
+        alert("Thank you! We'll be in touch.");
+    } catch (error) {
+        console.error('Form submission failed:', error);
+        alert('Something went wrong. Please try again.');
     }
-    axios.post('https://sheet.best/api/sheets/c6a1efb8-0fab-400a-b49c-187a50123976',data).then((response)=>{
-      console.log(response);
-      // To Clear text fields
-      setName('');
-      setEmail('');
-      setMobile('');
-      setSubject('');
-      setBudget('');
-      setMessage('');
-    })
-  }
+};
 
     return(
         <>

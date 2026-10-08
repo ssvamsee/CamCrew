@@ -9,8 +9,7 @@ import Services from './Services';
 import Forms from './Form';
 import Teamwork from './Teamwork';
 import Work from './Work';
-import { Helmet } from 'react-helmet';
-
+import { Helmet } from 'react-helmet-async';
 function Home() {
   return (
     <>
@@ -20,8 +19,8 @@ function Home() {
       name="description"
       content="Get info on CamCrew Home page"/>
       </Helmet>
-    <Carousel variant="dark">
-      <Carousel.Item interval={2000} touch="false" keyboard="false" indicators={false}>
+    <Carousel variant="dark" indicators={false} touch={false} keyboard={false}>
+      <Carousel.Item interval={2000}>
         <img
           className="d-block carouselimg"
           src={img1}

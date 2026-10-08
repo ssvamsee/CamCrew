@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import img1 from '../../Assets/teamwork1.svg';
 import img2 from '../../Assets/teamwork2.png';
 import img3 from '../../Assets/teamwork3.png';

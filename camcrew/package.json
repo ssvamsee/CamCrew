@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ssvamsee.github.io/CamCrew/",
+  "homepage": "https://camcrew.net",
   "name": "camcrew",
   "version": "0.1.0",
   "author": "Siddam Vamsee",
@@ -16,7 +16,7 @@
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
     "react-fontawesome": "^1.7.1",
-    "react-helmet": "^6.1.0",
+    "react-helmet-async": "^3.0.0",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.8.0",
     "react-scripts": "5.0.1",
@@ -24,7 +24,9 @@
     "react-whatsapp": "^0.3.0",
     "web-vitals": "^2.1.4"
   },
-  "keywords": ["Camcrew,ssvamsee,siddam vamsee,CamCrew,siddamvamsee"],
+  "keywords": [
+    "Camcrew,ssvamsee,siddam vamsee,CamCrew,siddamvamsee"
+  ],
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
